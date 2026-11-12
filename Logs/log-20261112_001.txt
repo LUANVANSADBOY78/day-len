@@ -1,0 +1,266 @@
+2026-11-12 13:56:27.415 +07:00 [ERR] Hosting failed to start 
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-11-12 13:56:27.532 +07:00 [FTL] Ứng dụng dừng bất thường khi khởi động. 
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main\Program.cs:line 519
+2026-11-12 13:56:49.571 +07:00 [ERR] Hosting failed to start 
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-11-12 13:56:49.639 +07:00 [FTL] Ứng dụng dừng bất thường khi khởi động. 
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main\Program.cs:line 519
+2026-11-12 14:00:00.907 +07:00 [ERR] Hosting failed to start 
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-11-12 14:00:00.967 +07:00 [FTL] Ứng dụng dừng bất thường khi khởi động. 
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main\Program.cs:line 519
+2026-11-12 14:00:49.385 +07:00 [INF] Now listening on: http://localhost:5000 
+2026-11-12 14:00:49.459 +07:00 [INF] Application started. Press Ctrl+C to shut down. 
+2026-11-12 14:00:49.463 +07:00 [INF] Hosting environment: Production 
+2026-11-12 14:00:49.464 +07:00 [INF] Content root path: D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main 
+2026-11-12 14:00:52.520 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 409ms User=long243 TraceId=0HNQ0HAO6PMT5:00000001 
+2026-11-12 14:00:53.242 +07:00 [INF] HTTP GET /user.html => 304 in 18ms User=long243 TraceId=0HNQ0HAO6PMT5:00000002 
+2026-11-12 14:00:53.614 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 221ms User=long243 TraceId=0HNQ0HAO6PMT6:00000001 
+2026-11-12 14:00:53.720 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 297ms User=long243 TraceId=0HNQ0HAO6PMT9:00000001 
+2026-11-12 14:00:53.742 +07:00 [INF] HTTP GET /api/doctors => 200 in 349ms User=long243 TraceId=0HNQ0HAO6PMT5:00000003 
+2026-11-12 14:00:53.847 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 7ms User=long243 TraceId=0HNQ0HAO6PMT5:00000004 
+2026-11-12 14:00:55.518 +07:00 [INF] HTTP GET /api/auth/me => 200 in 2125ms User=long243 TraceId=0HNQ0HAO6PMT7:00000001 
+2026-11-12 14:00:55.518 +07:00 [INF] HTTP GET /api/auth/me => 200 in 2093ms User=long243 TraceId=0HNQ0HAO6PMT8:00000001 
+2026-11-12 14:00:55.616 +07:00 [INF] HTTP GET /api/chatbot/prompts => 200 in 37ms User=long243 TraceId=0HNQ0HAO6PMT8:00000002 
+2026-11-12 14:00:55.640 +07:00 [INF] HTTP GET /api/patients/me => 200 in 110ms User=long243 TraceId=0HNQ0HAO6PMT7:00000002 
+2026-11-12 14:00:55.829 +07:00 [INF] HTTP GET /api/medical-records => 200 in 165ms User=long243 TraceId=0HNQ0HAO6PMT8:00000003 
+2026-11-12 14:00:55.886 +07:00 [INF] HTTP GET /api/otc-medicines/orders/mine => 200 in 221ms User=long243 TraceId=0HNQ0HAO6PMT5:00000005 
+2026-11-12 14:00:55.904 +07:00 [INF] HTTP GET /api/appointments => 200 in 239ms User=long243 TraceId=0HNQ0HAO6PMT7:00000003 
+2026-11-12 14:00:55.908 +07:00 [INF] HTTP GET /api/medical-records/9/prescriptions => 200 in 69ms User=long243 TraceId=0HNQ0HAO6PMT8:00000004 
+2026-11-12 14:00:55.908 +07:00 [INF] HTTP GET /api/medical-records/8/prescriptions => 200 in 68ms User=long243 TraceId=0HNQ0HAO6PMT9:00000002 
+2026-11-12 14:01:04.903 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 14:01:04.907 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 14:01:06.797 +07:00 [INF] Received HTTP response headers after 1862.7354ms - 200 
+2026-11-12 14:01:06.819 +07:00 [INF] End processing HTTP request after 1921.2501ms - 200 
+2026-11-12 14:01:07.007 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 2237ms User=long243 TraceId=0HNQ0HAO6PMT9:00000003 
+2026-11-12 14:02:20.370 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 14:02:20.372 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 14:02:21.265 +07:00 [INF] Received HTTP response headers after 882.5536ms - 200 
+2026-11-12 14:02:21.269 +07:00 [INF] End processing HTTP request after 900.6729ms - 200 
+2026-11-12 14:02:21.273 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 933ms User=long243 TraceId=0HNQ0HAO6PMT9:00000004 
+2026-11-12 14:02:44.450 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 14:02:44.455 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 14:02:45.635 +07:00 [INF] Received HTTP response headers after 1171.9204ms - 200 
+2026-11-12 14:02:45.638 +07:00 [INF] End processing HTTP request after 1187.9286ms - 200 
+2026-11-12 14:02:45.645 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 1238ms User=long243 TraceId=0HNQ0HAO6PMT9:00000005 
+2026-11-12 14:03:26.627 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 14ms User=long243 TraceId=0HNQ0HAO6PMT9:00000006 
+2026-11-12 14:03:36.411 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 50ms User=long243 TraceId=0HNQ0HAO6PMT9:00000007 
+2026-11-12 14:03:57.839 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 25ms User=long243 TraceId=0HNQ0HAO6PMT9:00000008 
+2026-11-12 14:04:06.301 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 6ms User=long243 TraceId=0HNQ0HAO6PMT9:00000009 
+2026-11-12 14:04:13.393 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 18ms User=long243 TraceId=0HNQ0HAO6PMT9:0000000A 
+2026-11-12 14:04:27.171 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 9ms User=long243 TraceId=0HNQ0HAO6PMT9:0000000B 
+2026-11-12 14:04:31.983 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 9ms User=long243 TraceId=0HNQ0HAO6PMT9:0000000C 
+2026-11-12 14:04:33.831 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 10ms User=long243 TraceId=0HNQ0HAO6PMT9:0000000D 
+2026-11-12 14:04:56.061 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 45ms User=long243 TraceId=0HNQ0HAO6PMT9:0000000E 
+2026-11-12 14:05:05.210 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 15ms User=long243 TraceId=0HNQ0HAO6PMT9:0000000F 
+2026-11-12 14:05:12.975 +07:00 [INF] Application is shutting down... 
+2026-11-12 14:05:12.989 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 1ms User=long243 TraceId=0HNQ0HAO6PMT9:00000010 
+2026-11-12 14:05:12.991 +07:00 [INF] HTTP GET /hubs/clinic?id=Uyi0bz6MS5y4wilrIsEXsQ => 101 in 259127ms User=long243 TraceId=0HNQ0HAO6PMTA:00000001 
+2026-11-12 14:10:41.736 +07:00 [INF] Now listening on: http://localhost:5000 
+2026-11-12 14:10:41.785 +07:00 [INF] Application started. Press Ctrl+C to shut down. 
+2026-11-12 14:10:41.788 +07:00 [INF] Hosting environment: Production 
+2026-11-12 14:10:41.791 +07:00 [INF] Content root path: D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main 
+2026-11-12 14:10:43.398 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 434ms User=long243 TraceId=0HNQ0HG89ONDQ:00000001 
+2026-11-12 14:10:45.156 +07:00 [INF] HTTP GET /user.html => 304 in 30ms User=long243 TraceId=0HNQ0HG89ONDQ:00000002 
+2026-11-12 14:10:45.549 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 203ms User=long243 TraceId=0HNQ0HG89ONDS:00000001 
+2026-11-12 14:10:45.658 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 312ms User=long243 TraceId=0HNQ0HG89ONDU:00000001 
+2026-11-12 14:10:45.687 +07:00 [INF] HTTP GET /api/doctors => 200 in 341ms User=long243 TraceId=0HNQ0HG89ONDQ:00000003 
+2026-11-12 14:10:45.803 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 6ms User=long243 TraceId=0HNQ0HG89ONDU:00000002 
+2026-11-12 14:10:47.445 +07:00 [INF] HTTP GET /api/auth/me => 200 in 2098ms User=long243 TraceId=0HNQ0HG89ONDR:00000001 
+2026-11-12 14:10:47.445 +07:00 [INF] HTTP GET /api/auth/me => 200 in 2098ms User=long243 TraceId=0HNQ0HG89ONDT:00000001 
+2026-11-12 14:10:47.535 +07:00 [INF] HTTP GET /api/chatbot/prompts => 200 in 35ms User=long243 TraceId=0HNQ0HG89ONDT:00000002 
+2026-11-12 14:10:47.621 +07:00 [INF] HTTP GET /api/patients/me => 200 in 164ms User=long243 TraceId=0HNQ0HG89ONDR:00000002 
+2026-11-12 14:10:47.820 +07:00 [INF] HTTP GET /api/medical-records => 200 in 160ms User=long243 TraceId=0HNQ0HG89ONDT:00000003 
+2026-11-12 14:10:47.885 +07:00 [INF] HTTP GET /api/appointments => 200 in 225ms User=long243 TraceId=0HNQ0HG89ONDR:00000003 
+2026-11-12 14:10:47.914 +07:00 [INF] HTTP GET /api/otc-medicines/orders/mine => 200 in 252ms User=long243 TraceId=0HNQ0HG89ONDU:00000003 
+2026-11-12 14:10:47.920 +07:00 [INF] HTTP GET /api/medical-records/9/prescriptions => 200 in 81ms User=long243 TraceId=0HNQ0HG89ONDT:00000004 
+2026-11-12 14:10:47.920 +07:00 [INF] HTTP GET /api/medical-records/8/prescriptions => 200 in 79ms User=long243 TraceId=0HNQ0HG89ONDQ:00000004 
+2026-11-12 14:10:53.391 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 11ms User=long243 TraceId=0HNQ0HG89ONDQ:00000005 
+2026-11-12 14:10:54.561 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 14ms User=long243 TraceId=0HNQ0HG89ONDQ:00000006 
+2026-11-12 14:11:09.713 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 11ms User=long243 TraceId=0HNQ0HG89ONDQ:00000007 
+2026-11-12 14:11:12.682 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 14:11:12.687 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 14:11:14.244 +07:00 [INF] Received HTTP response headers after 1535.7091ms - 200 
+2026-11-12 14:11:14.268 +07:00 [INF] End processing HTTP request after 1585.5218ms - 200 
+2026-11-12 14:11:14.333 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 1803ms User=long243 TraceId=0HNQ0HG89ONDQ:00000008 
+2026-11-12 14:12:04.213 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 66ms User=long243 TraceId=0HNQ0HG89ONDQ:00000009 
+2026-11-12 14:12:18.418 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 1ms User=long243 TraceId=0HNQ0HG89ONDQ:0000000A 
+2026-11-12 14:12:25.658 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 24ms User=long243 TraceId=0HNQ0HG89ONDQ:0000000B 
+2026-11-12 14:12:39.685 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 34ms User=long243 TraceId=0HNQ0HG89ONDQ:0000000C 
+2026-11-12 14:13:03.775 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 21ms User=long243 TraceId=0HNQ0HG89ONDQ:0000000D 
+2026-11-12 14:13:54.975 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 13ms User=long243 TraceId=0HNQ0HG89ONDQ:0000000E 
+2026-11-12 14:14:05.482 +07:00 [INF] HTTP GET /user.html => 304 in 1ms User=long243 TraceId=0HNQ0HG89ONDQ:0000000F 
+2026-11-12 14:14:05.563 +07:00 [INF] HTTP GET /hubs/clinic?id=kKcUrYCLUbL-9Cwo9CNxqg => 101 in 199741ms User=long243 TraceId=0HNQ0HG89ONDV:00000001 
+2026-11-12 14:14:05.615 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 27ms User=long243 TraceId=0HNQ0HG89ONE0:00000001 
+2026-11-12 14:14:05.628 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 38ms User=long243 TraceId=0HNQ0HG89ONE3:00000001 
+2026-11-12 14:14:05.641 +07:00 [INF] HTTP GET /api/doctors => 200 in 57ms User=long243 TraceId=0HNQ0HG89ONDQ:00000010 
+2026-11-12 14:14:05.697 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 1ms User=long243 TraceId=0HNQ0HG89ONDQ:00000011 
+2026-11-12 14:14:07.054 +07:00 [INF] HTTP GET /api/auth/me => 200 in 1463ms User=long243 TraceId=0HNQ0HG89ONE2:00000001 
+2026-11-12 14:14:07.056 +07:00 [INF] HTTP GET /api/auth/me => 200 in 1465ms User=long243 TraceId=0HNQ0HG89ONE1:00000001 
+2026-11-12 14:14:07.095 +07:00 [INF] HTTP GET /api/patients/me => 200 in 30ms User=long243 TraceId=0HNQ0HG89ONE2:00000002 
+2026-11-12 14:14:07.107 +07:00 [INF] HTTP GET /api/chatbot/prompts => 200 in 1ms User=long243 TraceId=0HNQ0HG89ONE1:00000002 
+2026-11-12 14:14:07.139 +07:00 [INF] HTTP GET /api/otc-medicines/orders/mine => 200 in 23ms User=long243 TraceId=0HNQ0HG89ONE3:00000002 
+2026-11-12 14:14:07.148 +07:00 [INF] HTTP GET /api/medical-records => 200 in 34ms User=long243 TraceId=0HNQ0HG89ONDQ:00000012 
+2026-11-12 14:14:07.161 +07:00 [INF] HTTP GET /api/appointments => 200 in 45ms User=long243 TraceId=0HNQ0HG89ONE2:00000003 
+2026-11-12 14:14:07.202 +07:00 [INF] HTTP GET /api/medical-records/9/prescriptions => 200 in 24ms User=long243 TraceId=0HNQ0HG89ONDQ:00000013 
+2026-11-12 14:14:07.206 +07:00 [INF] HTTP GET /api/medical-records/8/prescriptions => 200 in 26ms User=long243 TraceId=0HNQ0HG89ONE3:00000003 
+2026-11-12 14:14:18.232 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 9ms User=long243 TraceId=0HNQ0HG89ONE3:00000004 
+2026-11-12 14:17:21.138 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 11ms User=long243 TraceId=0HNQ0HG89ONE5:00000001 
+2026-11-12 14:21:58.743 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 17ms User=long243 TraceId=0HNQ0HG89ONE6:00000001 
+2026-11-12 14:22:09.550 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 9ms User=long243 TraceId=0HNQ0HG89ONE6:00000002 
+2026-11-12 14:23:17.959 +07:00 [INF] Application is shutting down... 
+2026-11-12 14:23:17.967 +07:00 [INF] HTTP GET /hubs/clinic?id=erxO47TZyXL1jxurEOCIKA => 101 in 552216ms User=long243 TraceId=0HNQ0HG89ONE4:00000001 

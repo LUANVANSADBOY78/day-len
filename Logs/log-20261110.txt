@@ -1,0 +1,183 @@
+2026-11-10 14:28:52.529 +07:00 [INF] Now listening on: http://localhost:5000 
+2026-11-10 14:28:52.549 +07:00 [INF] Application started. Press Ctrl+C to shut down. 
+2026-11-10 14:28:52.549 +07:00 [INF] Hosting environment: Production 
+2026-11-10 14:28:52.550 +07:00 [INF] Content root path: D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main 
+2026-11-10 14:29:13.830 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 236ms User=long243 TraceId=0HNPUVH8TAJM2:00000001 
+2026-11-10 14:29:16.415 +07:00 [INF] HTTP GET /user.html => 304 in 5ms User=long243 TraceId=0HNPUVH8TAJM2:00000002 
+2026-11-10 14:29:16.451 +07:00 [INF] HTTP GET /chatbot.js?v=15.0 => 304 in 3ms User=long243 TraceId=0HNPUVH8TAJM3:00000001 
+2026-11-10 14:29:16.451 +07:00 [INF] HTTP GET /chatbot.css?v=12.0 => 304 in 5ms User=long243 TraceId=0HNPUVH8TAJM2:00000003 
+2026-11-10 14:29:16.531 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 67ms User=long243 TraceId=0HNPUVH8TAJM4:00000001 
+2026-11-10 14:29:16.567 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 103ms User=long243 TraceId=0HNPUVH8TAJM6:00000001 
+2026-11-10 14:29:16.585 +07:00 [INF] HTTP GET /api/doctors => 200 in 121ms User=long243 TraceId=0HNPUVH8TAJM2:00000004 
+2026-11-10 14:29:16.593 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 3ms User=long243 TraceId=0HNPUVH8TAJM6:00000002 
+2026-11-10 14:29:17.398 +07:00 [INF] HTTP GET /api/auth/me => 200 in 934ms User=long243 TraceId=0HNPUVH8TAJM5:00000001 
+2026-11-10 14:29:17.408 +07:00 [INF] HTTP GET /api/auth/me => 200 in 944ms User=long243 TraceId=0HNPUVH8TAJM3:00000002 
+2026-11-10 14:29:17.419 +07:00 [INF] HTTP GET /api/chatbot/prompts => 200 in 3ms User=long243 TraceId=0HNPUVH8TAJM3:00000003 
+2026-11-10 14:29:17.450 +07:00 [INF] HTTP GET /api/patients/me => 200 in 33ms User=long243 TraceId=0HNPUVH8TAJM5:00000002 
+2026-11-10 14:29:17.494 +07:00 [INF] HTTP GET /api/medical-records => 200 in 39ms User=long243 TraceId=0HNPUVH8TAJM3:00000004 
+2026-11-10 14:29:17.518 +07:00 [INF] HTTP GET /api/appointments => 200 in 64ms User=long243 TraceId=0HNPUVH8TAJM5:00000003 
+2026-11-10 14:29:17.523 +07:00 [INF] HTTP GET /api/medical-records/9/prescriptions => 200 in 25ms User=long243 TraceId=0HNPUVH8TAJM3:00000005 
+2026-11-10 14:29:17.523 +07:00 [INF] HTTP GET /api/medical-records/8/prescriptions => 200 in 25ms User=long243 TraceId=0HNPUVH8TAJM2:00000005 
+2026-11-10 14:29:17.526 +07:00 [INF] HTTP GET /api/otc-medicines/orders/mine => 200 in 72ms User=long243 TraceId=0HNPUVH8TAJM6:00000003 
+2026-11-10 14:29:21.345 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 6ms User=long243 TraceId=0HNPUVH8TAJM6:00000004 
+2026-11-10 14:29:28.391 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 8ms User=long243 TraceId=0HNPUVH8TAJM6:00000005 
+2026-11-10 14:29:36.451 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 6ms User=long243 TraceId=0HNPUVH8TAJM6:00000006 
+2026-11-10 14:29:36.483 +07:00 [INF] HTTP GET /swagger/index.html => 304 in 37ms User=anonymous TraceId=0HNPUVH8TAJM2:00000006 
+2026-11-10 14:29:36.505 +07:00 [INF] HTTP GET /swagger/index.js => 304 in 0ms User=anonymous TraceId=0HNPUVH8TAJM4:00000002 
+2026-11-10 14:29:36.509 +07:00 [INF] HTTP GET /swagger/index.css => 304 in 4ms User=anonymous TraceId=0HNPUVH8TAJM6:00000007 
+2026-11-10 14:29:36.509 +07:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js => 304 in 4ms User=anonymous TraceId=0HNPUVH8TAJM5:00000004 
+2026-11-10 14:29:36.509 +07:00 [INF] HTTP GET /swagger/swagger-ui.css => 304 in 4ms User=anonymous TraceId=0HNPUVH8TAJM2:00000007 
+2026-11-10 14:29:36.512 +07:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js => 304 in 8ms User=anonymous TraceId=0HNPUVH8TAJM3:00000006 
+2026-11-10 14:29:36.774 +07:00 [INF] HTTP GET /swagger/v1/swagger.json => 200 in 201ms User=anonymous TraceId=0HNPUVH8TAJM3:00000007 
+2026-11-10 14:30:03.479 +07:00 [INF] HTTP GET /hubs/clinic?id=Vate5bNFIL0fKbkpxLuq_A => 101 in 46879ms User=long243 TraceId=0HNPUVH8TAJM7:00000001 
+2026-11-10 14:30:06.571 +07:00 [INF] HTTP GET /api/Errors/bad-request => 200 in 2ms User=long243 TraceId=0HNPUVH8TAJM3:00000008 
+2026-11-10 14:30:06.577 +07:00 [WRN] Handled exception 400. TraceId=0HNPUVH8TAJM3:00000008 GET /api/Errors/bad-request 
+StudentManagement.Exceptions.BadRequestException: Đây là lỗi 400 từ Exception Middleware.
+   at StudentManagement.Controllers.ErrorsController.BadRequestError() in D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main\Controllers\ErrorsController.cs:line 16
+   at lambda_method677(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at StudentManagement.Middleware.PageAccessMiddleware.InvokeAsync(HttpContext context) in D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main\Middleware\PageAccessMiddleware.cs:line 64
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at StudentManagement.Middleware.RequestLoggingMiddleware.InvokeAsync(HttpContext context) in D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main\Middleware\RequestLoggingMiddleware.cs:line 21
+   at StudentManagement.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main\Middleware\ExceptionHandlingMiddleware.cs:line 32
+2026-11-10 14:30:25.030 +07:00 [INF] HTTP GET /api/Errors/not-found => 200 in 1ms User=long243 TraceId=0HNPUVH8TAJM3:00000009 
+2026-11-10 14:30:25.032 +07:00 [WRN] Handled exception 404. TraceId=0HNPUVH8TAJM3:00000009 GET /api/Errors/not-found 
+StudentManagement.Exceptions.NotFoundException: Đây là lỗi 404 từ Exception Middleware.
+   at StudentManagement.Controllers.ErrorsController.NotFoundError() in D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main\Controllers\ErrorsController.cs:line 22
+   at lambda_method679(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at StudentManagement.Middleware.PageAccessMiddleware.InvokeAsync(HttpContext context) in D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main\Middleware\PageAccessMiddleware.cs:line 64
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at StudentManagement.Middleware.RequestLoggingMiddleware.InvokeAsync(HttpContext context) in D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main\Middleware\RequestLoggingMiddleware.cs:line 21
+   at StudentManagement.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main\Middleware\ExceptionHandlingMiddleware.cs:line 32
+2026-11-10 14:30:36.869 +07:00 [INF] HTTP GET /api/Errors/unauthorized => 200 in 1ms User=long243 TraceId=0HNPUVH8TAJM3:0000000A 
+2026-11-10 14:30:36.875 +07:00 [WRN] Handled exception 401. TraceId=0HNPUVH8TAJM3:0000000A GET /api/Errors/unauthorized 
+StudentManagement.Exceptions.UnauthorizedException: Đây là lỗi 401 từ Exception Middleware.
+   at StudentManagement.Controllers.ErrorsController.UnauthorizedError() in D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main\Controllers\ErrorsController.cs:line 28
+   at lambda_method681(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at StudentManagement.Middleware.PageAccessMiddleware.InvokeAsync(HttpContext context) in D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main\Middleware\PageAccessMiddleware.cs:line 64
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at StudentManagement.Middleware.RequestLoggingMiddleware.InvokeAsync(HttpContext context) in D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main\Middleware\RequestLoggingMiddleware.cs:line 21
+   at StudentManagement.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main\Middleware\ExceptionHandlingMiddleware.cs:line 32
+2026-11-10 14:31:23.492 +07:00 [INF] HTTP GET /api/Errors/server => 200 in 1ms User=long243 TraceId=0HNPUVH8TAJM3:0000000B 
+2026-11-10 14:31:23.494 +07:00 [ERR] Unhandled exception. TraceId=0HNPUVH8TAJM3:0000000B GET /api/Errors/server 
+System.Exception: Đây là lỗi 500 giả lập (unhandled exception).
+   at StudentManagement.Controllers.ErrorsController.ServerError() in D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main\Controllers\ErrorsController.cs:line 34
+   at lambda_method683(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at StudentManagement.Middleware.PageAccessMiddleware.InvokeAsync(HttpContext context) in D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main\Middleware\PageAccessMiddleware.cs:line 64
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at StudentManagement.Middleware.RequestLoggingMiddleware.InvokeAsync(HttpContext context) in D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main\Middleware\RequestLoggingMiddleware.cs:line 21
+   at StudentManagement.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main\Middleware\ExceptionHandlingMiddleware.cs:line 32
+2026-11-10 14:34:00.806 +07:00 [INF] HTTP POST /api/Files/upload => 403 in 5ms User=long243 TraceId=0HNPUVH8TAJM8:00000001 
+2026-11-10 14:34:59.355 +07:00 [INF] HTTP POST /api/auth/login => 401 in 1132ms User=long243 TraceId=0HNPUVH8TAJM8:00000002 
+2026-11-10 14:35:16.248 +07:00 [INF] HTTP POST /api/auth/login => 401 in 728ms User=long243 TraceId=0HNPUVH8TAJM8:00000003 
+2026-11-10 14:35:34.851 +07:00 [INF] HTTP POST /api/auth/login => 200 in 1005ms User=long243 TraceId=0HNPUVH8TAJM8:00000004 
+2026-11-10 14:36:13.626 +07:00 [INF] HTTP POST /api/Files/upload => 403 in 487ms User=luanvanvan TraceId=0HNPUVH8TAJM8:00000005 
+2026-11-10 14:36:37.567 +07:00 [INF] HTTP POST /api/Files/upload => 403 in 1ms User=luanvanvan TraceId=0HNPUVH8TAJM8:00000006 
+2026-11-10 14:36:53.745 +07:00 [INF] HTTP POST /api/Files/upload => 403 in 1ms User=luanvanvan TraceId=0HNPUVH8TAJM8:00000007 
+2026-11-10 14:38:32.077 +07:00 [INF] HTTP POST /api/Files/upload => 403 in 0ms User=luanvanvan TraceId=0HNPUVH8TAJM8:00000008 
+2026-11-10 14:38:37.807 +07:00 [INF] HTTP POST /api/Files/upload => 403 in 0ms User=luanvanvan TraceId=0HNPUVH8TAJM8:00000009 
+2026-11-10 14:53:48.607 +07:00 [INF] Application is shutting down... 
+2026-11-10 15:13:39.725 +07:00 [INF] Now listening on: http://localhost:5000 
+2026-11-10 15:13:39.782 +07:00 [INF] Application started. Press Ctrl+C to shut down. 
+2026-11-10 15:13:39.785 +07:00 [INF] Hosting environment: Production 
+2026-11-10 15:13:39.788 +07:00 [INF] Content root path: D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main 
+2026-11-10 15:13:51.991 +07:00 [INF] HTTP GET / => 302 in 48ms User=luanvanvan TraceId=0HNPV0A73UDUM:00000001 
+2026-11-10 15:13:52.024 +07:00 [INF] HTTP GET /doctor.html => 304 in 9ms User=luanvanvan TraceId=0HNPV0A73UDUM:00000002 
+2026-11-10 15:13:52.347 +07:00 [INF] HTTP GET /api/patients => 200 in 263ms User=luanvanvan TraceId=0HNPV0A73UDUN:00000001 
+2026-11-10 15:13:52.351 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 265ms User=luanvanvan TraceId=0HNPV0A73UDUO:00000001 
+2026-11-10 15:13:52.560 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 5ms User=luanvanvan TraceId=0HNPV0A73UDUO:00000002 
+2026-11-10 15:13:53.219 +07:00 [INF] HTTP GET /api/auth/me => 200 in 1135ms User=luanvanvan TraceId=0HNPV0A73UDUM:00000003 
+2026-11-10 15:13:53.259 +07:00 [INF] HTTP GET /api/doctors/11 => 200 in 28ms User=luanvanvan TraceId=0HNPV0A73UDUM:00000004 
+2026-11-10 15:13:53.289 +07:00 [INF] HTTP GET /api/doctors => 200 in 13ms User=luanvanvan TraceId=0HNPV0A73UDUO:00000003 
+2026-11-10 15:13:53.340 +07:00 [INF] HTTP GET /api/doctor-leaves?doctorId=11 => 200 in 41ms User=luanvanvan TraceId=0HNPV0A73UDUQ:00000001 
+2026-11-10 15:13:53.358 +07:00 [INF] HTTP GET /api/files/9 => 200 in 83ms User=luanvanvan TraceId=0HNPV0A73UDUM:00000005 
+2026-11-10 15:13:53.363 +07:00 [INF] HTTP GET /api/appointments/queue => 200 in 67ms User=luanvanvan TraceId=0HNPV0A73UDUO:00000004 
+2026-11-10 15:13:53.369 +07:00 [INF] HTTP GET /api/reviews/doctor/11 => 200 in 71ms User=luanvanvan TraceId=0HNPV0A73UDUR:00000001 
+2026-11-10 15:13:53.369 +07:00 [INF] HTTP GET /api/medical-records => 200 in 73ms User=luanvanvan TraceId=0HNPV0A73UDUN:00000002 
+2026-11-10 15:13:53.376 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 0ms User=luanvanvan TraceId=0HNPV0A73UDUN:00000003 
+2026-11-10 15:14:23.915 +07:00 [INF] HTTP POST /api/auth/logout => 204 in 874ms User=luanvanvan TraceId=0HNPV0A73UDUN:00000004 
+2026-11-10 15:14:23.989 +07:00 [INF] HTTP GET /api/chatbot/prompts => 200 in 5ms User=anonymous TraceId=0HNPV0A73UDUN:00000005 
+2026-11-10 15:14:31.780 +07:00 [INF] HTTP POST /api/auth/login => 200 in 2003ms User=anonymous TraceId=0HNPV0A73UDUN:00000006 
+2026-11-10 15:14:31.794 +07:00 [INF] HTTP GET /user.html => 304 in 0ms User=long243 TraceId=0HNPV0A73UDUN:00000007 
+2026-11-10 15:14:31.814 +07:00 [INF] HTTP GET /chatbot.js?v=15.0 => 304 in 0ms User=long243 TraceId=0HNPV0A73UDUR:00000002 
+2026-11-10 15:14:31.814 +07:00 [INF] HTTP GET /chatbot.css?v=12.0 => 304 in 0ms User=long243 TraceId=0HNPV0A73UDUN:00000008 
+2026-11-10 15:14:31.881 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 8ms User=long243 TraceId=0HNPV0A73UDUQ:00000002 
+2026-11-10 15:14:31.889 +07:00 [INF] HTTP GET /api/doctors => 200 in 17ms User=long243 TraceId=0HNPV0A73UDUN:00000009 
+2026-11-10 15:14:31.894 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 0ms User=long243 TraceId=0HNPV0A73UDUN:0000000A 
+2026-11-10 15:14:31.900 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 26ms User=long243 TraceId=0HNPV0A73UDUR:00000003 
+2026-11-10 15:14:32.329 +07:00 [INF] HTTP GET /api/auth/me => 200 in 456ms User=long243 TraceId=0HNPV0A73UDUM:00000006 
+2026-11-10 15:14:32.364 +07:00 [INF] HTTP GET /api/patients/me => 200 in 27ms User=long243 TraceId=0HNPV0A73UDUM:00000007 
+2026-11-10 15:14:32.378 +07:00 [INF] HTTP GET /api/auth/me => 200 in 506ms User=long243 TraceId=0HNPV0A73UDUO:00000005 
+2026-11-10 15:14:32.385 +07:00 [INF] HTTP GET /api/medical-records => 200 in 13ms User=long243 TraceId=0HNPV0A73UDUR:00000004 
+2026-11-10 15:14:32.388 +07:00 [INF] HTTP GET /api/chatbot/prompts => 200 in 2ms User=long243 TraceId=0HNPV0A73UDUO:00000006 
+2026-11-10 15:14:32.424 +07:00 [INF] HTTP GET /api/medical-records/8/prescriptions => 200 in 32ms User=long243 TraceId=0HNPV0A73UDUQ:00000003 
+2026-11-10 15:14:32.424 +07:00 [INF] HTTP GET /api/medical-records/9/prescriptions => 200 in 32ms User=long243 TraceId=0HNPV0A73UDUR:00000005 
+2026-11-10 15:14:32.439 +07:00 [INF] HTTP GET /api/appointments => 200 in 68ms User=long243 TraceId=0HNPV0A73UDUM:00000008 
+2026-11-10 15:14:32.464 +07:00 [INF] HTTP GET /api/otc-medicines/orders/mine => 200 in 91ms User=long243 TraceId=0HNPV0A73UDUN:0000000B 
+2026-11-10 15:14:38.537 +07:00 [INF] HTTP GET /hubs/clinic?id=2jjTDYaD_m9G71k4d5J6wA => 101 in 45157ms User=luanvanvan TraceId=0HNPV0A73UDUS:00000001 
+2026-11-10 15:14:38.537 +07:00 [INF] HTTP GET /hubs/clinic?id=7hVjwTyrFM8bY0O0w-Nuwg => 101 in 45967ms User=luanvanvan TraceId=0HNPV0A73UDUP:00000001 
+2026-11-10 15:14:41.641 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 11ms User=long243 TraceId=0HNPV0A73UDUN:0000000C 
+2026-11-10 15:14:59.513 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 9ms User=long243 TraceId=0HNPV0A73UDUN:0000000D 
+2026-11-10 15:15:17.577 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 5ms User=long243 TraceId=0HNPV0A73UDUN:0000000E 
+2026-11-10 15:16:13.981 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 7ms User=long243 TraceId=0HNPV0A73UDUN:0000000F 
+2026-11-10 15:18:13.070 +07:00 [INF] HTTP GET /api/files/9 => 200 in 14ms User=long243 TraceId=0HNPV0A73UDUN:00000010 
+2026-11-10 15:18:20.949 +07:00 [INF] HTTP GET /hubs/clinic?id=AyheJyKVCflvXbpvXoeyWg => 101 in 229048ms User=long243 TraceId=0HNPV0A73UDUT:00000001 

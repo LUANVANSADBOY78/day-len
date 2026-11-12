@@ -1,0 +1,891 @@
+2026-11-12 12:45:55.701 +07:00 [INF] Now listening on: http://localhost:5000 
+2026-11-12 12:45:55.719 +07:00 [INF] Application started. Press Ctrl+C to shut down. 
+2026-11-12 12:45:55.720 +07:00 [INF] Hosting environment: Production 
+2026-11-12 12:45:55.721 +07:00 [INF] Content root path: D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main 
+2026-11-12 12:46:13.485 +07:00 [INF] HTTP GET / => 302 in 28ms User=anonymous TraceId=0HNQ0G11FR6OA:00000001 
+2026-11-12 12:46:13.521 +07:00 [INF] HTTP GET /login.html => 200 in 12ms User=anonymous TraceId=0HNQ0G11FR6OA:00000002 
+2026-11-12 12:46:13.567 +07:00 [INF] HTTP GET /auth.css => 304 in 3ms User=anonymous TraceId=0HNQ0G11FR6OA:00000003 
+2026-11-12 12:46:13.567 +07:00 [INF] HTTP GET /auth.js => 304 in 3ms User=anonymous TraceId=0HNQ0G11FR6OB:00000001 
+2026-11-12 12:46:13.683 +07:00 [INF] HTTP GET /favicon.ico => 404 in 0ms User=anonymous TraceId=0HNQ0G11FR6OB:00000002 
+2026-11-12 12:46:20.817 +07:00 [INF] HTTP POST /api/auth/login => 200 in 2577ms User=anonymous TraceId=0HNQ0G11FR6OB:00000003 
+2026-11-12 12:46:20.839 +07:00 [INF] HTTP GET /user.html => 304 in 2ms User=long243 TraceId=0HNQ0G11FR6OB:00000004 
+2026-11-12 12:46:20.862 +07:00 [INF] HTTP GET /chatbot.css?v=12.0 => 304 in 0ms User=long243 TraceId=0HNQ0G11FR6OA:00000004 
+2026-11-12 12:46:20.863 +07:00 [INF] HTTP GET /user-workspace.js?v=6.5 => 304 in 0ms User=long243 TraceId=0HNQ0G11FR6OC:00000001 
+2026-11-12 12:46:20.863 +07:00 [INF] HTTP GET /chatbot.js?v=15.0 => 304 in 0ms User=long243 TraceId=0HNQ0G11FR6OB:00000005 
+2026-11-12 12:46:21.050 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 126ms User=long243 TraceId=0HNQ0G11FR6OC:00000002 
+2026-11-12 12:46:21.050 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 124ms User=long243 TraceId=0HNQ0G11FR6OE:00000001 
+2026-11-12 12:46:21.079 +07:00 [INF] HTTP GET /api/doctors => 200 in 155ms User=long243 TraceId=0HNQ0G11FR6OB:00000006 
+2026-11-12 12:46:21.171 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 2ms User=long243 TraceId=0HNQ0G11FR6OB:00000007 
+2026-11-12 12:46:21.495 +07:00 [INF] HTTP GET /api/auth/me => 200 in 569ms User=long243 TraceId=0HNQ0G11FR6OD:00000001 
+2026-11-12 12:46:21.495 +07:00 [INF] HTTP GET /api/auth/me => 200 in 570ms User=long243 TraceId=0HNQ0G11FR6OA:00000005 
+2026-11-12 12:46:21.531 +07:00 [INF] HTTP GET /api/patients/me => 200 in 30ms User=long243 TraceId=0HNQ0G11FR6OD:00000002 
+2026-11-12 12:46:21.531 +07:00 [INF] HTTP GET /api/chatbot/prompts => 200 in 4ms User=long243 TraceId=0HNQ0G11FR6OA:00000006 
+2026-11-12 12:46:21.597 +07:00 [INF] HTTP GET /api/medical-records => 200 in 60ms User=long243 TraceId=0HNQ0G11FR6OD:00000003 
+2026-11-12 12:46:21.623 +07:00 [INF] HTTP GET /api/appointments => 200 in 87ms User=long243 TraceId=0HNQ0G11FR6OA:00000007 
+2026-11-12 12:46:21.632 +07:00 [INF] HTTP GET /api/medical-records/9/prescriptions => 200 in 30ms User=long243 TraceId=0HNQ0G11FR6OD:00000004 
+2026-11-12 12:46:21.632 +07:00 [INF] HTTP GET /api/medical-records/8/prescriptions => 200 in 30ms User=long243 TraceId=0HNQ0G11FR6OE:00000002 
+2026-11-12 12:46:21.634 +07:00 [INF] HTTP GET /api/otc-medicines/orders/mine => 200 in 97ms User=long243 TraceId=0HNQ0G11FR6OB:00000008 
+2026-11-12 12:46:24.229 +07:00 [INF] HTTP POST /api/auth/logout => 204 in 608ms User=long243 TraceId=0HNQ0G11FR6OB:00000009 
+2026-11-12 12:46:39.996 +07:00 [INF] HTTP POST /api/auth/login => 200 in 1103ms User=anonymous TraceId=0HNQ0G11FR6OB:0000000A 
+2026-11-12 12:46:40.051 +07:00 [INF] HTTP GET /admin.html => 200 in 7ms User=admin TraceId=0HNQ0G11FR6OB:0000000B 
+2026-11-12 12:46:40.062 +07:00 [INF] HTTP GET /admin-workspace.js?v=6.6 => 304 in 0ms User=admin TraceId=0HNQ0G11FR6OB:0000000C 
+2026-11-12 12:46:40.078 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 3ms User=admin TraceId=0HNQ0G11FR6OE:00000003 
+2026-11-12 12:46:40.096 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 0ms User=admin TraceId=0HNQ0G11FR6OE:00000004 
+2026-11-12 12:46:40.789 +07:00 [INF] HTTP GET /api/auth/me => 200 in 715ms User=admin TraceId=0HNQ0G11FR6OB:0000000D 
+2026-11-12 12:46:40.819 +07:00 [INF] HTTP GET /api/chatbot/config => 200 in 14ms User=admin TraceId=0HNQ0G11FR6OH:00000001 
+2026-11-12 12:46:40.822 +07:00 [INF] HTTP GET /api/doctors?includeInactive=true => 200 in 20ms User=admin TraceId=0HNQ0G11FR6OB:0000000E 
+2026-11-12 12:46:40.831 +07:00 [INF] HTTP GET /api/doctors?includeInactive=true => 200 in 5ms User=admin TraceId=0HNQ0G11FR6OH:00000002 
+2026-11-12 12:46:40.884 +07:00 [INF] HTTP GET /api/doctor-leaves => 200 in 77ms User=admin TraceId=0HNQ0G11FR6OA:00000008 
+2026-11-12 12:46:40.903 +07:00 [INF] HTTP GET /api/reviews => 200 in 96ms User=admin TraceId=0HNQ0G11FR6OC:00000003 
+2026-11-12 12:46:40.951 +07:00 [INF] HTTP GET /api/files/9 => 200 in 113ms User=admin TraceId=0HNQ0G11FR6OH:00000003 
+2026-11-12 12:46:40.954 +07:00 [INF] HTTP GET /api/dashboard/admin => 200 in 149ms User=admin TraceId=0HNQ0G11FR6OE:00000005 
+2026-11-12 12:46:41.667 +07:00 [INF] HTTP GET /api/users?pageNumber=1&pageSize=10&searchTerm=&role=&sortBy=username&isDescending=false => 200 in 860ms User=admin TraceId=0HNQ0G11FR6OD:00000005 
+2026-11-12 12:46:44.665 +07:00 [INF] HTTP POST /api/auth/logout => 204 in 812ms User=admin TraceId=0HNQ0G11FR6OD:00000006 
+2026-11-12 12:46:51.631 +07:00 [INF] HTTP GET /hubs/clinic?id=ks4CJWu3216WLSZQoh4BDg => 101 in 30456ms User=long243 TraceId=0HNQ0G11FR6OF:00000001 
+2026-11-12 12:46:52.747 +07:00 [INF] HTTP POST /api/auth/login => 200 in 1027ms User=anonymous TraceId=0HNQ0G11FR6OD:00000007 
+2026-11-12 12:46:52.766 +07:00 [INF] HTTP GET /index.html => 304 in 0ms User=letu TraceId=0HNQ0G11FR6OD:00000008 
+2026-11-12 12:46:52.785 +07:00 [INF] HTTP GET /staff-profile.js => 304 in 0ms User=letu TraceId=0HNQ0G11FR6OE:00000006 
+2026-11-12 12:46:52.785 +07:00 [INF] HTTP GET /app.js?v=6.4 => 304 in 0ms User=letu TraceId=0HNQ0G11FR6OH:00000004 
+2026-11-12 12:46:52.785 +07:00 [INF] HTTP GET /styles.css?v=6.1 => 304 in 0ms User=letu TraceId=0HNQ0G11FR6OD:00000009 
+2026-11-12 12:46:52.861 +07:00 [INF] HTTP GET /api/doctors => 200 in 2ms User=letu TraceId=0HNQ0G11FR6OH:00000005 
+2026-11-12 12:46:52.863 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 2ms User=letu TraceId=0HNQ0G11FR6OB:0000000F 
+2026-11-12 12:46:52.871 +07:00 [INF] HTTP GET /api/appointments => 200 in 12ms User=letu TraceId=0HNQ0G11FR6OC:00000004 
+2026-11-12 12:46:52.871 +07:00 [INF] HTTP GET /api/patients => 200 in 12ms User=letu TraceId=0HNQ0G11FR6OE:00000007 
+2026-11-12 12:46:52.880 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 0ms User=letu TraceId=0HNQ0G11FR6OE:00000008 
+2026-11-12 12:46:52.891 +07:00 [INF] HTTP GET /api/otc-medicines/orders => 200 in 31ms User=letu TraceId=0HNQ0G11FR6OA:00000009 
+2026-11-12 12:46:52.936 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 0ms User=letu TraceId=0HNQ0G11FR6OA:0000000A 
+2026-11-12 12:46:53.440 +07:00 [INF] HTTP GET /api/auth/me => 200 in 582ms User=letu TraceId=0HNQ0G11FR6OD:0000000A 
+2026-11-12 12:47:00.747 +07:00 [INF] HTTP POST /api/auth/logout => 204 in 685ms User=letu TraceId=0HNQ0G11FR6OD:0000000B 
+2026-11-12 12:47:10.618 +07:00 [INF] HTTP GET /hubs/clinic?id=OVFc8hYvPezUUdIRYJBjaw => 101 in 30506ms User=admin TraceId=0HNQ0G11FR6OG:00000001 
+2026-11-12 12:47:23.614 +07:00 [INF] HTTP GET /hubs/clinic?id=x1cY7YFedMQMMtRMX6qMog => 101 in 30664ms User=letu TraceId=0HNQ0G11FR6OJ:00000001 
+2026-11-12 12:47:23.615 +07:00 [INF] HTTP GET /hubs/clinic?id=zhH0IpyhAQtHgTPaYqz-zA => 101 in 30677ms User=letu TraceId=0HNQ0G11FR6OI:00000001 
+2026-11-12 12:47:27.852 +07:00 [INF] HTTP POST /api/auth/login => 200 in 1068ms User=anonymous TraceId=0HNQ0G11FR6OD:0000000C 
+2026-11-12 12:47:27.871 +07:00 [INF] HTTP GET /support.html => 304 in 0ms User=support TraceId=0HNQ0G11FR6OD:0000000D 
+2026-11-12 12:47:27.909 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 2ms User=support TraceId=0HNQ0G11FR6OA:0000000B 
+2026-11-12 12:47:27.925 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 0ms User=support TraceId=0HNQ0G11FR6OA:0000000C 
+2026-11-12 12:47:28.488 +07:00 [INF] HTTP GET /api/auth/me => 200 in 586ms User=support TraceId=0HNQ0G11FR6OD:0000000E 
+2026-11-12 12:47:28.501 +07:00 [INF] HTTP GET /api/doctors => 200 in 3ms User=support TraceId=0HNQ0G11FR6OD:0000000F 
+2026-11-12 12:47:28.536 +07:00 [INF] HTTP GET /api/support => 200 in 38ms User=support TraceId=0HNQ0G11FR6OA:0000000D 
+2026-11-12 12:47:28.544 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 0ms User=support TraceId=0HNQ0G11FR6OA:0000000E 
+2026-11-12 12:47:37.015 +07:00 [INF] HTTP POST /api/auth/logout => 204 in 584ms User=support TraceId=0HNQ0G11FR6OA:0000000F 
+2026-11-12 12:47:39.070 +07:00 [INF] HTTP POST /api/auth/login => 200 in 799ms User=anonymous TraceId=0HNQ0G11FR6OA:00000010 
+2026-11-12 12:47:39.103 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 2ms User=long243 TraceId=0HNQ0G11FR6OE:00000009 
+2026-11-12 12:47:39.105 +07:00 [INF] HTTP GET /api/doctors => 200 in 5ms User=long243 TraceId=0HNQ0G11FR6OA:00000011 
+2026-11-12 12:47:39.106 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 4ms User=long243 TraceId=0HNQ0G11FR6OB:00000010 
+2026-11-12 12:47:39.121 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 2ms User=long243 TraceId=0HNQ0G11FR6OA:00000012 
+2026-11-12 12:47:39.124 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 6ms User=long243 TraceId=0HNQ0G11FR6OB:00000011 
+2026-11-12 12:47:39.135 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 0ms User=long243 TraceId=0HNQ0G11FR6OB:00000012 
+2026-11-12 12:47:39.607 +07:00 [INF] HTTP GET /api/auth/me => 200 in 506ms User=long243 TraceId=0HNQ0G11FR6OC:00000005 
+2026-11-12 12:47:39.629 +07:00 [INF] HTTP GET /api/chatbot/prompts => 200 in 2ms User=long243 TraceId=0HNQ0G11FR6OC:00000006 
+2026-11-12 12:47:39.648 +07:00 [INF] HTTP GET /api/auth/me => 200 in 547ms User=long243 TraceId=0HNQ0G11FR6OD:00000010 
+2026-11-12 12:47:39.660 +07:00 [INF] HTTP GET /api/patients/me => 200 in 3ms User=long243 TraceId=0HNQ0G11FR6OD:00000011 
+2026-11-12 12:47:39.670 +07:00 [INF] HTTP GET /api/appointments => 200 in 3ms User=long243 TraceId=0HNQ0G11FR6OD:00000012 
+2026-11-12 12:47:39.670 +07:00 [INF] HTTP GET /api/otc-medicines/orders/mine => 200 in 2ms User=long243 TraceId=0HNQ0G11FR6OB:00000013 
+2026-11-12 12:47:39.670 +07:00 [INF] HTTP GET /api/medical-records => 200 in 3ms User=long243 TraceId=0HNQ0G11FR6OC:00000007 
+2026-11-12 12:47:39.680 +07:00 [INF] HTTP GET /api/medical-records/9/prescriptions => 200 in 3ms User=long243 TraceId=0HNQ0G11FR6OC:00000008 
+2026-11-12 12:47:39.680 +07:00 [INF] HTTP GET /api/medical-records/8/prescriptions => 200 in 3ms User=long243 TraceId=0HNQ0G11FR6OB:00000014 
+2026-11-12 12:47:58.615 +07:00 [INF] HTTP GET /hubs/clinic?id=mq7Kj_-zmpnLDEItLr0EdA => 101 in 30066ms User=support TraceId=0HNQ0G11FR6OL:00000001 
+2026-11-12 12:47:58.615 +07:00 [INF] HTTP GET /hubs/clinic?id=Ld1vev0k7cqQo_RSfMKHSw => 101 in 30686ms User=support TraceId=0HNQ0G11FR6OK:00000001 
+2026-11-12 12:48:42.404 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 3ms User=long243 TraceId=0HNQ0G11FR6OB:00000015 
+2026-11-12 12:49:26.003 +07:00 [INF] HTTP GET /api/files/9 => 200 in 14ms User=long243 TraceId=0HNQ0G11FR6OB:00000016 
+2026-11-12 12:50:04.505 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 5ms User=long243 TraceId=0HNQ0G11FR6OB:00000017 
+2026-11-12 12:51:48.766 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 3ms User=long243 TraceId=0HNQ0G11FR6OB:00000018 
+2026-11-12 12:51:51.100 +07:00 [INF] HTTP POST /api/auth/logout => 204 in 560ms User=long243 TraceId=0HNQ0G11FR6OB:00000019 
+2026-11-12 12:52:00.045 +07:00 [INF] HTTP POST /api/auth/login => 200 in 605ms User=anonymous TraceId=0HNQ0G11FR6OB:0000001A 
+2026-11-12 12:52:00.105 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 2ms User=admin TraceId=0HNQ0G11FR6ON:00000001 
+2026-11-12 12:52:00.123 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 1ms User=admin TraceId=0HNQ0G11FR6ON:00000002 
+2026-11-12 12:52:00.662 +07:00 [INF] HTTP GET /api/auth/me => 200 in 559ms User=admin TraceId=0HNQ0G11FR6OB:0000001B 
+2026-11-12 12:52:00.672 +07:00 [INF] HTTP GET /api/chatbot/config => 200 in 0ms User=admin TraceId=0HNQ0G11FR6OS:00000001 
+2026-11-12 12:52:00.674 +07:00 [INF] HTTP GET /api/doctors?includeInactive=true => 200 in 3ms User=admin TraceId=0HNQ0G11FR6OP:00000001 
+2026-11-12 12:52:00.674 +07:00 [INF] HTTP GET /api/doctor-leaves => 200 in 3ms User=admin TraceId=0HNQ0G11FR6OQ:00000001 
+2026-11-12 12:52:00.675 +07:00 [INF] HTTP GET /api/reviews => 200 in 3ms User=admin TraceId=0HNQ0G11FR6OR:00000001 
+2026-11-12 12:52:00.677 +07:00 [INF] HTTP GET /api/dashboard/admin => 200 in 7ms User=admin TraceId=0HNQ0G11FR6OB:0000001C 
+2026-11-12 12:52:00.679 +07:00 [INF] HTTP GET /api/doctors?includeInactive=true => 200 in 3ms User=admin TraceId=0HNQ0G11FR6OS:00000002 
+2026-11-12 12:52:00.739 +07:00 [INF] HTTP GET /api/files/9 => 200 in 39ms User=admin TraceId=0HNQ0G11FR6OS:00000003 
+2026-11-12 12:52:01.295 +07:00 [INF] HTTP GET /api/users?pageNumber=1&pageSize=10&searchTerm=&role=&sortBy=username&isDescending=false => 200 in 624ms User=admin TraceId=0HNQ0G11FR6ON:00000003 
+2026-11-12 12:52:02.622 +07:00 [INF] HTTP GET /api/doctors?includeInactive=true => 200 in 8ms User=admin TraceId=0HNQ0G11FR6ON:00000004 
+2026-11-12 12:52:03.149 +07:00 [INF] HTTP GET /api/users?pageNumber=1&pageSize=10&searchTerm=&role=&sortBy=username&isDescending=false => 200 in 535ms User=admin TraceId=0HNQ0G11FR6OS:00000004 
+2026-11-12 12:52:04.330 +07:00 [INF] HTTP GET /api/doctors?includeInactive=true => 200 in 5ms User=admin TraceId=0HNQ0G11FR6OS:00000005 
+2026-11-12 12:52:07.618 +07:00 [INF] HTTP GET /hubs/clinic?id=-xOZ035IJKY7EBLQh-QQQQ => 101 in 268457ms User=long243 TraceId=0HNQ0G11FR6OM:00000001 
+2026-11-12 12:52:14.969 +07:00 [INF] HTTP POST /api/doctors/11/profile-photo/upload => 400 in 89ms User=admin TraceId=0HNQ0G11FR6OS:00000006 
+2026-11-12 12:52:17.320 +07:00 [INF] HTTP POST /api/doctors/11/profile-photo/upload => 400 in 31ms User=admin TraceId=0HNQ0G11FR6OS:00000007 
+2026-11-12 12:52:18.158 +07:00 [INF] HTTP POST /api/doctors/11/profile-photo/upload => 400 in 31ms User=admin TraceId=0HNQ0G11FR6OS:00000008 
+2026-11-12 12:52:18.842 +07:00 [INF] HTTP POST /api/doctors/11/profile-photo/upload => 400 in 30ms User=admin TraceId=0HNQ0G11FR6OS:00000009 
+2026-11-12 12:52:31.951 +07:00 [INF] HTTP POST /api/doctors/11/profile-photo/upload => 400 in 19ms User=admin TraceId=0HNQ0G11FR6OS:0000000A 
+2026-11-12 12:52:32.880 +07:00 [INF] HTTP POST /api/doctors/11/profile-photo/upload => 400 in 22ms User=admin TraceId=0HNQ0G11FR6OS:0000000B 
+2026-11-12 12:53:24.222 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 10ms User=admin TraceId=0HNQ0G11FR6OS:0000000C 
+2026-11-12 12:53:30.614 +07:00 [INF] HTTP GET /api/appointments => 200 in 5ms User=admin TraceId=0HNQ0G11FR6OS:0000000D 
+2026-11-12 12:53:32.927 +07:00 [INF] HTTP GET /api/audit-logs => 200 in 56ms User=admin TraceId=0HNQ0G11FR6OS:0000000E 
+2026-11-12 12:55:28.908 +07:00 [INF] HTTP GET /api/doctors?includeInactive=true => 200 in 3ms User=admin TraceId=0HNQ0G11FR6OS:0000000F 
+2026-11-12 12:55:28.931 +07:00 [INF] HTTP GET /api/files/9 => 200 in 17ms User=admin TraceId=0HNQ0G11FR6OS:00000010 
+2026-11-12 12:55:39.588 +07:00 [INF] HTTP POST /api/doctors/11/profile-photo/upload => 200 in 226ms User=admin TraceId=0HNQ0G11FR6OS:00000011 
+2026-11-12 12:55:39.596 +07:00 [INF] HTTP GET /api/doctors?includeInactive=true => 200 in 2ms User=admin TraceId=0HNQ0G11FR6OS:00000012 
+2026-11-12 12:55:39.604 +07:00 [INF] HTTP GET /api/files/10 => 200 in 4ms User=admin TraceId=0HNQ0G11FR6OS:00000013 
+2026-11-12 12:55:49.377 +07:00 [INF] HTTP GET /api/doctors?includeInactive=true => 200 in 10ms User=admin TraceId=0HNQ0G11FR6OS:00000014 
+2026-11-12 12:55:50.010 +07:00 [INF] HTTP GET /api/users?pageNumber=1&pageSize=10&searchTerm=&role=&sortBy=username&isDescending=false => 200 in 642ms User=admin TraceId=0HNQ0G11FR6OT:00000001 
+2026-11-12 12:56:02.795 +07:00 [INF] HTTP POST /api/auth/logout => 204 in 825ms User=admin TraceId=0HNQ0G11FR6OT:00000002 
+2026-11-12 12:56:02.818 +07:00 [INF] HTTP GET /hubs/clinic?id=9uUxyvS1K0cqARIaHR__Tw => 101 in 242689ms User=admin TraceId=0HNQ0G11FR6OO:00000001 
+2026-11-12 12:56:05.284 +07:00 [INF] HTTP POST /api/auth/login => 200 in 745ms User=anonymous TraceId=0HNQ0G11FR6OT:00000003 
+2026-11-12 12:56:05.381 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 2ms User=long243 TraceId=0HNQ0G11FR6OS:00000015 
+2026-11-12 12:56:05.383 +07:00 [INF] HTTP GET /api/doctors => 200 in 4ms User=long243 TraceId=0HNQ0G11FR6OT:00000004 
+2026-11-12 12:56:05.383 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 3ms User=long243 TraceId=0HNQ0G11FR6P0:00000001 
+2026-11-12 12:56:05.404 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 0ms User=long243 TraceId=0HNQ0G11FR6P0:00000002 
+2026-11-12 12:56:05.948 +07:00 [INF] HTTP GET /api/auth/me => 200 in 569ms User=long243 TraceId=0HNQ0G11FR6OU:00000001 
+2026-11-12 12:56:05.949 +07:00 [INF] HTTP GET /api/auth/me => 200 in 569ms User=long243 TraceId=0HNQ0G11FR6OV:00000001 
+2026-11-12 12:56:05.965 +07:00 [INF] HTTP GET /api/chatbot/prompts => 200 in 0ms User=long243 TraceId=0HNQ0G11FR6OV:00000002 
+2026-11-12 12:56:05.969 +07:00 [INF] HTTP GET /api/patients/me => 200 in 2ms User=long243 TraceId=0HNQ0G11FR6OU:00000002 
+2026-11-12 12:56:05.975 +07:00 [INF] HTTP GET /api/otc-medicines/orders/mine => 200 in 1ms User=long243 TraceId=0HNQ0G11FR6P0:00000003 
+2026-11-12 12:56:05.975 +07:00 [INF] HTTP GET /api/appointments => 200 in 2ms User=long243 TraceId=0HNQ0G11FR6OU:00000003 
+2026-11-12 12:56:05.976 +07:00 [INF] HTTP GET /api/medical-records => 200 in 3ms User=long243 TraceId=0HNQ0G11FR6OV:00000003 
+2026-11-12 12:56:05.991 +07:00 [INF] HTTP GET /api/medical-records/8/prescriptions => 200 in 3ms User=long243 TraceId=0HNQ0G11FR6OU:00000004 
+2026-11-12 12:56:05.992 +07:00 [INF] HTTP GET /api/medical-records/9/prescriptions => 200 in 3ms User=long243 TraceId=0HNQ0G11FR6OV:00000004 
+2026-11-12 12:56:12.497 +07:00 [INF] HTTP GET /api/files/10 => 200 in 3ms User=long243 TraceId=0HNQ0G11FR6OV:00000005 
+2026-11-12 12:56:27.907 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 2ms User=long243 TraceId=0HNQ0G11FR6OV:00000006 
+2026-11-12 12:57:12.021 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 2ms User=long243 TraceId=0HNQ0G11FR6OV:00000007 
+2026-11-12 12:57:50.902 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 3ms User=long243 TraceId=0HNQ0G11FR6OV:00000008 
+2026-11-12 13:03:12.384 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 105ms User=long243 TraceId=0HNQ0G11FR6P2:00000001 
+2026-11-12 13:03:32.913 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 12ms User=long243 TraceId=0HNQ0G11FR6P2:00000002 
+2026-11-12 13:04:51.094 +07:00 [INF] Application is shutting down... 
+2026-11-12 13:04:51.099 +07:00 [INF] HTTP GET /hubs/clinic?id=QfoUb16pfvcAJ28HhemchA => 101 in 525614ms User=long243 TraceId=0HNQ0G11FR6P1:00000001 
+2026-11-12 13:05:05.973 +07:00 [INF] Now listening on: http://localhost:5000 
+2026-11-12 13:05:06.126 +07:00 [INF] Application started. Press Ctrl+C to shut down. 
+2026-11-12 13:05:06.128 +07:00 [INF] Hosting environment: Production 
+2026-11-12 13:05:06.128 +07:00 [INF] Content root path: D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main 
+2026-11-12 13:05:14.731 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 370ms User=anonymous TraceId=0HNQ0GBLFRC8B:00000001 
+2026-11-12 13:05:15.773 +07:00 [INF] HTTP GET /user.html => 302 in 12ms User=anonymous TraceId=0HNQ0GBLFRC8B:00000002 
+2026-11-12 13:05:15.816 +07:00 [INF] HTTP GET /login.html => 304 in 26ms User=anonymous TraceId=0HNQ0GBLFRC8B:00000003 
+2026-11-12 13:05:31.593 +07:00 [INF] HTTP POST /api/auth/login => 200 in 5200ms User=anonymous TraceId=0HNQ0GBLFRC8B:00000004 
+2026-11-12 13:05:31.815 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 115ms User=admin TraceId=0HNQ0GBLFRC8C:00000001 
+2026-11-12 13:05:31.868 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 9ms User=admin TraceId=0HNQ0GBLFRC8C:00000002 
+2026-11-12 13:05:32.941 +07:00 [INF] HTTP GET /api/auth/me => 200 in 1239ms User=admin TraceId=0HNQ0GBLFRC8B:00000005 
+2026-11-12 13:05:33.005 +07:00 [INF] HTTP GET /api/chatbot/config => 200 in 30ms User=admin TraceId=0HNQ0GBLFRC8H:00000001 
+2026-11-12 13:05:33.132 +07:00 [INF] HTTP GET /api/doctors?includeInactive=true => 200 in 165ms User=admin TraceId=0HNQ0GBLFRC8E:00000001 
+2026-11-12 13:05:33.165 +07:00 [INF] HTTP GET /api/doctors?includeInactive=true => 200 in 30ms User=admin TraceId=0HNQ0GBLFRC8H:00000002 
+2026-11-12 13:05:33.186 +07:00 [INF] HTTP GET /api/doctor-leaves => 200 in 216ms User=admin TraceId=0HNQ0GBLFRC8F:00000001 
+2026-11-12 13:05:33.243 +07:00 [INF] HTTP GET /api/reviews => 200 in 271ms User=admin TraceId=0HNQ0GBLFRC8G:00000001 
+2026-11-12 13:05:33.320 +07:00 [INF] HTTP GET /api/files/10 => 200 in 144ms User=admin TraceId=0HNQ0GBLFRC8H:00000003 
+2026-11-12 13:05:33.477 +07:00 [INF] HTTP GET /api/dashboard/admin => 200 in 517ms User=admin TraceId=0HNQ0GBLFRC8B:00000006 
+2026-11-12 13:05:34.370 +07:00 [INF] HTTP GET /api/users?pageNumber=1&pageSize=10&searchTerm=&role=&sortBy=username&isDescending=false => 200 in 1410ms User=admin TraceId=0HNQ0GBLFRC8C:00000003 
+2026-11-12 13:05:58.472 +07:00 [INF] HTTP POST /api/chatbot/config => 200 in 70ms User=admin TraceId=0HNQ0GBLFRC8C:00000004 
+2026-11-12 13:05:58.520 +07:00 [INF] HTTP GET /api/chatbot/config => 200 in 5ms User=admin TraceId=0HNQ0GBLFRC8C:00000005 
+2026-11-12 13:05:58.670 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:05:58.674 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:05:59.412 +07:00 [INF] Received HTTP response headers after 731.2428ms - 200 
+2026-11-12 13:05:59.419 +07:00 [INF] End processing HTTP request after 754.677ms - 200 
+2026-11-12 13:05:59.898 +07:00 [INF] HTTP GET /api/chatbot/available-models?provider=Mistral => 200 in 1265ms User=admin TraceId=0HNQ0GBLFRC8C:00000006 
+2026-11-12 13:06:04.134 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:06:04.135 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:06:05.112 +07:00 [INF] Received HTTP response headers after 975.2677ms - 429 
+2026-11-12 13:06:05.116 +07:00 [INF] End processing HTTP request after 983.2099ms - 429 
+2026-11-12 13:06:05.121 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:06:05.123 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:06:05.787 +07:00 [INF] Received HTTP response headers after 661.8787ms - 200 
+2026-11-12 13:06:05.791 +07:00 [INF] End processing HTTP request after 669.493ms - 200 
+2026-11-12 13:06:06.332 +07:00 [WRN] [Mistral Test] Status 429: Rate limit exceeded 
+2026-11-12 13:06:06.344 +07:00 [INF] HTTP POST /api/chatbot/test-connection => 200 in 2240ms User=admin TraceId=0HNQ0GBLFRC8C:00000007 
+2026-11-12 13:06:06.392 +07:00 [INF] HTTP GET /api/chatbot/config => 200 in 1ms User=admin TraceId=0HNQ0GBLFRC8C:00000008 
+2026-11-12 13:06:06.403 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:06:06.406 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:06:06.853 +07:00 [INF] Received HTTP response headers after 444.065ms - 200 
+2026-11-12 13:06:06.864 +07:00 [INF] End processing HTTP request after 460.9869ms - 200 
+2026-11-12 13:06:07.367 +07:00 [INF] HTTP GET /api/chatbot/available-models?provider=Mistral&accountId=long243 => 200 in 964ms User=admin TraceId=0HNQ0GBLFRC8C:00000009 
+2026-11-12 13:06:16.652 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:06:16.659 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:06:17.096 +07:00 [INF] Received HTTP response headers after 424.3097ms - 429 
+2026-11-12 13:06:17.102 +07:00 [INF] End processing HTTP request after 449.7078ms - 429 
+2026-11-12 13:06:17.120 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:06:17.126 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:06:17.607 +07:00 [INF] Received HTTP response headers after 471.935ms - 200 
+2026-11-12 13:06:17.622 +07:00 [INF] End processing HTTP request after 501.3661ms - 200 
+2026-11-12 13:06:18.018 +07:00 [WRN] [Mistral Test] Status 429: Rate limit exceeded 
+2026-11-12 13:06:18.028 +07:00 [INF] HTTP POST /api/chatbot/test-connection => 200 in 1382ms User=admin TraceId=0HNQ0GBLFRC8C:0000000A 
+2026-11-12 13:06:18.056 +07:00 [INF] HTTP GET /api/chatbot/config => 200 in 2ms User=admin TraceId=0HNQ0GBLFRC8C:0000000B 
+2026-11-12 13:06:18.080 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:06:18.087 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:06:18.528 +07:00 [INF] Received HTTP response headers after 436.1421ms - 200 
+2026-11-12 13:06:18.537 +07:00 [INF] End processing HTTP request after 456.9528ms - 200 
+2026-11-12 13:06:18.939 +07:00 [INF] HTTP GET /api/chatbot/available-models?provider=Mistral&accountId=long243 => 200 in 861ms User=admin TraceId=0HNQ0GBLFRC8C:0000000C 
+2026-11-12 13:06:37.380 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:06:37.389 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:06:37.782 +07:00 [INF] Received HTTP response headers after 386.5711ms - 429 
+2026-11-12 13:06:37.787 +07:00 [INF] End processing HTTP request after 406.7433ms - 429 
+2026-11-12 13:06:37.791 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:06:37.798 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:06:38.293 +07:00 [INF] Received HTTP response headers after 461.5336ms - 200 
+2026-11-12 13:06:38.298 +07:00 [INF] End processing HTTP request after 507.3352ms - 200 
+2026-11-12 13:06:38.707 +07:00 [WRN] [Mistral Test] Status 429: Rate limit exceeded 
+2026-11-12 13:06:38.737 +07:00 [INF] HTTP POST /api/chatbot/test-connection => 200 in 1359ms User=admin TraceId=0HNQ0GBLFRC8C:0000000D 
+2026-11-12 13:06:38.796 +07:00 [INF] HTTP GET /api/chatbot/config => 200 in 3ms User=admin TraceId=0HNQ0GBLFRC8C:0000000E 
+2026-11-12 13:06:38.841 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:06:38.848 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:06:39.318 +07:00 [INF] Received HTTP response headers after 463.4954ms - 200 
+2026-11-12 13:06:39.335 +07:00 [INF] End processing HTTP request after 493.2873ms - 200 
+2026-11-12 13:06:39.729 +07:00 [INF] HTTP GET /api/chatbot/available-models?provider=Mistral&accountId=long243 => 200 in 892ms User=admin TraceId=0HNQ0GBLFRC8C:0000000F 
+2026-11-12 13:06:45.253 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:06:45.258 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:06:45.645 +07:00 [INF] Received HTTP response headers after 383.1732ms - 429 
+2026-11-12 13:06:45.650 +07:00 [INF] End processing HTTP request after 396.823ms - 429 
+2026-11-12 13:06:45.659 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:06:45.665 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:06:46.179 +07:00 [INF] Received HTTP response headers after 508.2493ms - 200 
+2026-11-12 13:06:46.206 +07:00 [INF] End processing HTTP request after 547.4339ms - 200 
+2026-11-12 13:06:46.640 +07:00 [WRN] [Mistral Test] Status 429: Rate limit exceeded 
+2026-11-12 13:06:46.646 +07:00 [INF] HTTP POST /api/chatbot/test-connection => 200 in 1393ms User=admin TraceId=0HNQ0GBLFRC8C:00000010 
+2026-11-12 13:06:46.678 +07:00 [INF] HTTP GET /api/chatbot/config => 200 in 1ms User=admin TraceId=0HNQ0GBLFRC8C:00000011 
+2026-11-12 13:06:46.698 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:06:46.704 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:06:47.409 +07:00 [INF] Received HTTP response headers after 696.9111ms - 200 
+2026-11-12 13:06:47.414 +07:00 [INF] End processing HTTP request after 715.628ms - 200 
+2026-11-12 13:06:47.614 +07:00 [INF] HTTP GET /api/chatbot/available-models?provider=Mistral&accountId=long243 => 200 in 917ms User=admin TraceId=0HNQ0GBLFRC8C:00000012 
+2026-11-12 13:07:03.138 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:07:03.143 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:07:03.589 +07:00 [INF] Received HTTP response headers after 428.8041ms - 429 
+2026-11-12 13:07:03.592 +07:00 [INF] End processing HTTP request after 454.3657ms - 429 
+2026-11-12 13:07:03.595 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:07:03.599 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:07:04.101 +07:00 [INF] Received HTTP response headers after 495.8092ms - 200 
+2026-11-12 13:07:04.106 +07:00 [INF] End processing HTTP request after 511.2628ms - 200 
+2026-11-12 13:07:04.614 +07:00 [WRN] [Mistral Test] Status 429: Rate limit exceeded 
+2026-11-12 13:07:04.619 +07:00 [INF] HTTP POST /api/chatbot/test-connection => 200 in 1485ms User=admin TraceId=0HNQ0GBLFRC8C:00000013 
+2026-11-12 13:07:04.637 +07:00 [INF] HTTP GET /api/chatbot/config => 200 in 3ms User=admin TraceId=0HNQ0GBLFRC8C:00000014 
+2026-11-12 13:07:04.650 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:07:04.659 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:07:05.125 +07:00 [INF] Received HTTP response headers after 460.5391ms - 200 
+2026-11-12 13:07:05.128 +07:00 [INF] End processing HTTP request after 478.1115ms - 200 
+2026-11-12 13:07:05.646 +07:00 [INF] HTTP GET /api/chatbot/available-models?provider=Mistral&accountId=long243 => 200 in 996ms User=admin TraceId=0HNQ0GBLFRC8C:00000015 
+2026-11-12 13:07:15.910 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:07:15.928 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:07:16.326 +07:00 [INF] Received HTTP response headers after 393.0581ms - 429 
+2026-11-12 13:07:16.331 +07:00 [INF] End processing HTTP request after 420.9662ms - 429 
+2026-11-12 13:07:16.348 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:07:16.361 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:07:16.800 +07:00 [INF] Received HTTP response headers after 426.5269ms - 200 
+2026-11-12 13:07:16.812 +07:00 [INF] End processing HTTP request after 463.8ms - 200 
+2026-11-12 13:07:17.417 +07:00 [WRN] [Mistral Test] Status 429: Rate limit exceeded 
+2026-11-12 13:07:17.426 +07:00 [INF] HTTP POST /api/chatbot/test-connection => 200 in 1519ms User=admin TraceId=0HNQ0GBLFRC8C:00000016 
+2026-11-12 13:07:17.471 +07:00 [INF] HTTP GET /api/chatbot/config => 200 in 4ms User=admin TraceId=0HNQ0GBLFRC8C:00000017 
+2026-11-12 13:07:17.507 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:07:17.522 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:07:17.926 +07:00 [INF] Received HTTP response headers after 397.3004ms - 200 
+2026-11-12 13:07:17.930 +07:00 [INF] End processing HTTP request after 422.8755ms - 200 
+2026-11-12 13:07:18.444 +07:00 [INF] HTTP GET /api/chatbot/available-models?provider=Mistral => 200 in 942ms User=admin TraceId=0HNQ0GBLFRC8C:00000018 
+2026-11-12 13:07:27.834 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:07:27.840 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:07:28.373 +07:00 [INF] Received HTTP response headers after 510.3313ms - 200 
+2026-11-12 13:07:28.441 +07:00 [INF] End processing HTTP request after 607.0003ms - 200 
+2026-11-12 13:07:28.447 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:07:28.459 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:07:28.885 +07:00 [INF] Received HTTP response headers after 418.7461ms - 200 
+2026-11-12 13:07:28.886 +07:00 [INF] End processing HTTP request after 438.8144ms - 200 
+2026-11-12 13:07:29.398 +07:00 [INF] HTTP POST /api/chatbot/test-connection => 200 in 1565ms User=admin TraceId=0HNQ0GBLFRC8C:00000019 
+2026-11-12 13:07:29.427 +07:00 [INF] HTTP GET /api/chatbot/config => 200 in 4ms User=admin TraceId=0HNQ0GBLFRC8C:0000001A 
+2026-11-12 13:07:29.452 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:07:29.460 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:07:30.116 +07:00 [INF] Received HTTP response headers after 653.586ms - 200 
+2026-11-12 13:07:30.169 +07:00 [INF] End processing HTTP request after 716.3545ms - 200 
+2026-11-12 13:07:30.628 +07:00 [INF] HTTP GET /api/chatbot/available-models?provider=Mistral => 200 in 1176ms User=admin TraceId=0HNQ0GBLFRC8C:0000001B 
+2026-11-12 13:07:36.398 +07:00 [INF] HTTP POST /api/auth/logout => 204 in 1513ms User=admin TraceId=0HNQ0GBLFRC8C:0000001C 
+2026-11-12 13:07:36.715 +07:00 [INF] HTTP GET /hubs/clinic?id=Teo5SUZhaFPRlekAiL2Ltg => 101 in 124824ms User=admin TraceId=0HNQ0GBLFRC8D:00000001 
+2026-11-12 13:07:43.313 +07:00 [INF] HTTP POST /api/auth/login => 200 in 1832ms User=anonymous TraceId=0HNQ0GBLFRC8C:0000001D 
+2026-11-12 13:07:43.466 +07:00 [INF] HTTP GET /user.html => 200 in 64ms User=long243 TraceId=0HNQ0GBLFRC8C:0000001E 
+2026-11-12 13:07:43.532 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 8ms User=long243 TraceId=0HNQ0GBLFRC8F:00000002 
+2026-11-12 13:07:43.545 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 23ms User=long243 TraceId=0HNQ0GBLFRC8H:00000004 
+2026-11-12 13:07:43.566 +07:00 [INF] HTTP GET /api/doctors => 200 in 44ms User=long243 TraceId=0HNQ0GBLFRC8B:00000007 
+2026-11-12 13:07:43.652 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 1ms User=long243 TraceId=0HNQ0GBLFRC8B:00000008 
+2026-11-12 13:07:44.702 +07:00 [INF] HTTP GET /api/auth/me => 200 in 1180ms User=long243 TraceId=0HNQ0GBLFRC8G:00000002 
+2026-11-12 13:07:44.711 +07:00 [INF] HTTP GET /api/auth/me => 200 in 1189ms User=long243 TraceId=0HNQ0GBLFRC8C:0000001F 
+2026-11-12 13:07:44.753 +07:00 [INF] HTTP GET /api/chatbot/prompts => 200 in 9ms User=long243 TraceId=0HNQ0GBLFRC8C:00000020 
+2026-11-12 13:07:44.826 +07:00 [INF] HTTP GET /api/patients/me => 200 in 75ms User=long243 TraceId=0HNQ0GBLFRC8G:00000003 
+2026-11-12 13:07:44.961 +07:00 [INF] HTTP GET /api/appointments => 200 in 98ms User=long243 TraceId=0HNQ0GBLFRC8G:00000004 
+2026-11-12 13:07:44.965 +07:00 [INF] HTTP GET /api/medical-records => 200 in 102ms User=long243 TraceId=0HNQ0GBLFRC8C:00000021 
+2026-11-12 13:07:45.054 +07:00 [INF] HTTP GET /api/medical-records/9/prescriptions => 200 in 78ms User=long243 TraceId=0HNQ0GBLFRC8C:00000022 
+2026-11-12 13:07:45.054 +07:00 [INF] HTTP GET /api/medical-records/8/prescriptions => 200 in 78ms User=long243 TraceId=0HNQ0GBLFRC8G:00000005 
+2026-11-12 13:07:45.113 +07:00 [INF] HTTP GET /api/otc-medicines/orders/mine => 200 in 250ms User=long243 TraceId=0HNQ0GBLFRC8B:00000009 
+2026-11-12 13:08:03.459 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:08:03.461 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:08:04.630 +07:00 [INF] Received HTTP response headers after 1167.509ms - 200 
+2026-11-12 13:08:04.633 +07:00 [INF] End processing HTTP request after 1174.0861ms - 200 
+2026-11-12 13:08:04.688 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 1286ms User=long243 TraceId=0HNQ0GBLFRC8B:0000000A 
+2026-11-12 13:08:26.579 +07:00 [INF] HTTP POST /api/auth/logout => 204 in 1308ms User=long243 TraceId=0HNQ0GBLFRC8B:0000000B 
+2026-11-12 13:08:26.762 +07:00 [INF] HTTP GET /hubs/clinic?id=xmLsRTZSqKOWhasutN-iUA => 101 in 43020ms User=long243 TraceId=0HNQ0GBLFRC8I:00000001 
+2026-11-12 13:08:41.430 +07:00 [INF] Application is shutting down... 
+2026-11-12 13:08:54.986 +07:00 [INF] Now listening on: http://localhost:5000 
+2026-11-12 13:08:55.053 +07:00 [INF] Application started. Press Ctrl+C to shut down. 
+2026-11-12 13:08:55.057 +07:00 [INF] Hosting environment: Production 
+2026-11-12 13:08:55.061 +07:00 [INF] Content root path: D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main 
+2026-11-12 13:09:04.342 +07:00 [INF] HTTP GET /login.html => 304 in 79ms User=anonymous TraceId=0HNQ0GDQ09D5G:00000001 
+2026-11-12 13:09:08.575 +07:00 [INF] HTTP POST /api/auth/login => 200 in 2579ms User=anonymous TraceId=0HNQ0GDQ09D5G:00000002 
+2026-11-12 13:09:09.088 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 244ms User=long243 TraceId=0HNQ0GDQ09D5K:00000001 
+2026-11-12 13:09:09.094 +07:00 [INF] HTTP GET /api/doctors => 200 in 312ms User=long243 TraceId=0HNQ0GDQ09D5G:00000003 
+2026-11-12 13:09:09.096 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 314ms User=long243 TraceId=0HNQ0GDQ09D5H:00000001 
+2026-11-12 13:09:09.237 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 6ms User=long243 TraceId=0HNQ0GDQ09D5H:00000002 
+2026-11-12 13:09:10.186 +07:00 [INF] HTTP GET /api/auth/me => 200 in 1401ms User=long243 TraceId=0HNQ0GDQ09D5I:00000001 
+2026-11-12 13:09:10.186 +07:00 [INF] HTTP GET /api/auth/me => 200 in 1347ms User=long243 TraceId=0HNQ0GDQ09D5J:00000001 
+2026-11-12 13:09:10.260 +07:00 [INF] HTTP GET /api/chatbot/prompts => 200 in 24ms User=long243 TraceId=0HNQ0GDQ09D5J:00000002 
+2026-11-12 13:09:10.291 +07:00 [INF] HTTP GET /api/patients/me => 200 in 96ms User=long243 TraceId=0HNQ0GDQ09D5I:00000002 
+2026-11-12 13:09:10.427 +07:00 [INF] HTTP GET /api/medical-records => 200 in 115ms User=long243 TraceId=0HNQ0GDQ09D5J:00000003 
+2026-11-12 13:09:10.514 +07:00 [INF] HTTP GET /api/appointments => 200 in 202ms User=long243 TraceId=0HNQ0GDQ09D5I:00000003 
+2026-11-12 13:09:10.528 +07:00 [INF] HTTP GET /api/medical-records/8/prescriptions => 200 in 89ms User=long243 TraceId=0HNQ0GDQ09D5K:00000002 
+2026-11-12 13:09:10.528 +07:00 [INF] HTTP GET /api/medical-records/9/prescriptions => 200 in 89ms User=long243 TraceId=0HNQ0GDQ09D5J:00000004 
+2026-11-12 13:09:10.538 +07:00 [INF] HTTP GET /api/otc-medicines/orders/mine => 200 in 222ms User=long243 TraceId=0HNQ0GDQ09D5H:00000003 
+2026-11-12 13:09:23.210 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:09:23.215 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:09:23.836 +07:00 [INF] Received HTTP response headers after 614.6246ms - 429 
+2026-11-12 13:09:23.842 +07:00 [INF] End processing HTTP request after 636.506ms - 429 
+2026-11-12 13:09:23.851 +07:00 [ERR] [Mistral Chat Error] Status: 429, Body: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} 
+2026-11-12 13:09:23.868 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 767ms User=long243 TraceId=0HNQ0GDQ09D5M:00000001 
+2026-11-12 13:10:37.643 +07:00 [INF] Application is shutting down... 
+2026-11-12 13:10:37.676 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 1ms User=long243 TraceId=0HNQ0GDQ09D5M:00000002 
+2026-11-12 13:10:37.714 +07:00 [INF] HTTP GET /hubs/clinic?id=K5ZCistYWvZJMartuoJlqg => 101 in 88422ms User=long243 TraceId=0HNQ0GDQ09D5L:00000001 
+2026-11-12 13:11:07.667 +07:00 [INF] HTTP GET /hubs/clinic?id=GMIcvIL5hxkisyi4HrlDoA => 101 in 29959ms User=long243 TraceId=0HNQ0GDQ09D5N:00000001 
+2026-11-12 13:11:53.495 +07:00 [INF] Now listening on: http://localhost:5000 
+2026-11-12 13:11:53.570 +07:00 [INF] Application started. Press Ctrl+C to shut down. 
+2026-11-12 13:11:53.575 +07:00 [INF] Hosting environment: Production 
+2026-11-12 13:11:53.578 +07:00 [INF] Content root path: D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main 
+2026-11-12 13:11:57.880 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 410ms User=long243 TraceId=0HNQ0GFDJV33O:00000001 
+2026-11-12 13:12:04.325 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 196ms User=long243 TraceId=0HNQ0GFDJV33O:00000002 
+2026-11-12 13:12:12.698 +07:00 [INF] HTTP GET /user.html => 304 in 24ms User=long243 TraceId=0HNQ0GFDJV33O:00000003 
+2026-11-12 13:12:12.794 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 31ms User=long243 TraceId=0HNQ0GFDJV33Q:00000001 
+2026-11-12 13:12:12.911 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 142ms User=long243 TraceId=0HNQ0GFDJV33S:00000001 
+2026-11-12 13:12:12.932 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 7ms User=long243 TraceId=0HNQ0GFDJV33S:00000002 
+2026-11-12 13:12:12.946 +07:00 [INF] HTTP GET /api/doctors => 200 in 181ms User=long243 TraceId=0HNQ0GFDJV33R:00000001 
+2026-11-12 13:12:14.760 +07:00 [INF] HTTP GET /api/auth/me => 200 in 1992ms User=long243 TraceId=0HNQ0GFDJV33P:00000001 
+2026-11-12 13:12:14.789 +07:00 [INF] HTTP GET /api/auth/me => 200 in 2028ms User=long243 TraceId=0HNQ0GFDJV33O:00000004 
+2026-11-12 13:12:14.815 +07:00 [INF] HTTP GET /api/chatbot/prompts => 200 in 33ms User=long243 TraceId=0HNQ0GFDJV33P:00000002 
+2026-11-12 13:12:14.945 +07:00 [INF] HTTP GET /api/patients/me => 200 in 139ms User=long243 TraceId=0HNQ0GFDJV33O:00000005 
+2026-11-12 13:12:15.067 +07:00 [INF] HTTP GET /api/medical-records => 200 in 111ms User=long243 TraceId=0HNQ0GFDJV33P:00000003 
+2026-11-12 13:12:15.153 +07:00 [INF] HTTP GET /api/appointments => 200 in 197ms User=long243 TraceId=0HNQ0GFDJV33O:00000006 
+2026-11-12 13:12:15.167 +07:00 [INF] HTTP GET /api/medical-records/9/prescriptions => 200 in 83ms User=long243 TraceId=0HNQ0GFDJV33P:00000004 
+2026-11-12 13:12:15.167 +07:00 [INF] HTTP GET /api/medical-records/8/prescriptions => 200 in 83ms User=long243 TraceId=0HNQ0GFDJV33Q:00000002 
+2026-11-12 13:12:15.178 +07:00 [INF] HTTP GET /api/otc-medicines/orders/mine => 200 in 220ms User=long243 TraceId=0HNQ0GFDJV33S:00000003 
+2026-11-12 13:12:16.434 +07:00 [INF] HTTP POST /api/auth/logout => 204 in 1885ms User=long243 TraceId=0HNQ0GFDJV33R:00000002 
+2026-11-12 13:12:26.721 +07:00 [INF] HTTP POST /api/auth/login => 200 in 2205ms User=anonymous TraceId=0HNQ0GFDJV33R:00000003 
+2026-11-12 13:12:26.821 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 7ms User=admin TraceId=0HNQ0GFDJV33S:00000004 
+2026-11-12 13:12:26.870 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 1ms User=admin TraceId=0HNQ0GFDJV33S:00000005 
+2026-11-12 13:12:28.132 +07:00 [INF] HTTP GET /api/auth/me => 200 in 1318ms User=admin TraceId=0HNQ0GFDJV33R:00000004 
+2026-11-12 13:12:28.176 +07:00 [INF] HTTP GET /api/chatbot/config => 200 in 23ms User=admin TraceId=0HNQ0GFDJV33V:00000001 
+2026-11-12 13:12:28.176 +07:00 [INF] HTTP GET /api/doctors?includeInactive=true => 200 in 31ms User=admin TraceId=0HNQ0GFDJV33S:00000006 
+2026-11-12 13:12:28.204 +07:00 [INF] HTTP GET /api/doctors?includeInactive=true => 200 in 15ms User=admin TraceId=0HNQ0GFDJV33V:00000002 
+2026-11-12 13:12:28.247 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:12:28.259 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:12:28.266 +07:00 [INF] HTTP GET /api/doctor-leaves => 200 in 120ms User=admin TraceId=0HNQ0GFDJV33P:00000005 
+2026-11-12 13:12:28.325 +07:00 [INF] HTTP GET /api/reviews => 200 in 178ms User=admin TraceId=0HNQ0GFDJV33O:00000007 
+2026-11-12 13:12:28.402 +07:00 [INF] HTTP GET /api/files/10 => 200 in 176ms User=admin TraceId=0HNQ0GFDJV33V:00000003 
+2026-11-12 13:12:28.418 +07:00 [INF] HTTP GET /api/dashboard/admin => 200 in 273ms User=admin TraceId=0HNQ0GFDJV33R:00000005 
+2026-11-12 13:12:28.983 +07:00 [INF] Received HTTP response headers after 712.4102ms - 200 
+2026-11-12 13:12:28.987 +07:00 [INF] End processing HTTP request after 746.5125ms - 200 
+2026-11-12 13:12:29.003 +07:00 [INF] HTTP GET /api/chatbot/available-models?provider=Mistral => 200 in 806ms User=admin TraceId=0HNQ0GFDJV33S:00000007 
+2026-11-12 13:12:29.506 +07:00 [INF] HTTP GET /api/users?pageNumber=1&pageSize=10&searchTerm=&role=&sortBy=username&isDescending=false => 200 in 1360ms User=admin TraceId=0HNQ0GFDJV33Q:00000003 
+2026-11-12 13:12:36.473 +07:00 [INF] HTTP POST /api/chatbot/config => 200 in 91ms User=admin TraceId=0HNQ0GFDJV33Q:00000004 
+2026-11-12 13:12:36.508 +07:00 [INF] HTTP GET /api/chatbot/config => 200 in 3ms User=admin TraceId=0HNQ0GFDJV33Q:00000005 
+2026-11-12 13:12:36.539 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:12:36.543 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:12:36.943 +07:00 [INF] Received HTTP response headers after 386.0335ms - 401 
+2026-11-12 13:12:36.947 +07:00 [INF] End processing HTTP request after 410.5378ms - 401 
+2026-11-12 13:12:36.953 +07:00 [WRN] [Mistral] Model list request failed: 401 
+2026-11-12 13:12:36.957 +07:00 [INF] HTTP GET /api/chatbot/available-models?provider=Mistral&accountId=long243 => 200 in 422ms User=admin TraceId=0HNQ0GFDJV33Q:00000006 
+2026-11-12 13:12:43.394 +07:00 [INF] HTTP GET /hubs/clinic?id=wqHxup8N-N-zhgQOE-XAxA => 101 in 30452ms User=long243 TraceId=0HNQ0GFDJV33T:00000001 
+2026-11-12 13:12:46.756 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:12:46.758 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:12:47.084 +07:00 [INF] Received HTTP response headers after 323.1823ms - 401 
+2026-11-12 13:12:47.109 +07:00 [INF] End processing HTTP request after 353.0317ms - 401 
+2026-11-12 13:12:47.130 +07:00 [ERR] [Mistral Chat Error] Status: 401, Body: {"detail":"Invalid API Key"}
+ 
+2026-11-12 13:12:47.183 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 485ms User=admin TraceId=0HNQ0GFDJV33Q:00000007 
+2026-11-12 13:13:02.834 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:13:02.837 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:13:03.121 +07:00 [INF] Received HTTP response headers after 276.4161ms - 401 
+2026-11-12 13:13:03.130 +07:00 [INF] End processing HTTP request after 295.8946ms - 401 
+2026-11-12 13:13:03.155 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:13:03.162 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:13:03.467 +07:00 [INF] Received HTTP response headers after 285.3009ms - 401 
+2026-11-12 13:13:03.474 +07:00 [INF] End processing HTTP request after 319.4306ms - 401 
+2026-11-12 13:13:03.490 +07:00 [WRN] [Mistral Test] Status 401: Không có nội dung lỗi chi tiết. 
+2026-11-12 13:13:03.527 +07:00 [INF] HTTP POST /api/chatbot/test-connection => 200 in 727ms User=admin TraceId=0HNQ0GFDJV33Q:00000008 
+2026-11-12 13:13:03.548 +07:00 [INF] HTTP GET /api/chatbot/config => 200 in 3ms User=admin TraceId=0HNQ0GFDJV33Q:00000009 
+2026-11-12 13:13:03.576 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:13:03.582 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:13:03.856 +07:00 [INF] Received HTTP response headers after 268.3553ms - 401 
+2026-11-12 13:13:03.872 +07:00 [INF] End processing HTTP request after 295.1861ms - 401 
+2026-11-12 13:13:03.887 +07:00 [WRN] [Mistral] Model list request failed: 401 
+2026-11-12 13:13:03.900 +07:00 [INF] HTTP GET /api/chatbot/available-models?provider=Mistral&accountId=long243 => 200 in 327ms User=admin TraceId=0HNQ0GFDJV33Q:0000000A 
+2026-11-12 13:13:23.212 +07:00 [INF] HTTP POST /api/chatbot/config => 200 in 13ms User=admin TraceId=0HNQ0GFDJV33Q:0000000B 
+2026-11-12 13:13:23.256 +07:00 [INF] HTTP GET /api/chatbot/config => 200 in 3ms User=admin TraceId=0HNQ0GFDJV33Q:0000000C 
+2026-11-12 13:13:23.273 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:13:23.277 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:13:23.640 +07:00 [INF] Received HTTP response headers after 355.0971ms - 200 
+2026-11-12 13:13:23.643 +07:00 [INF] End processing HTTP request after 369.6113ms - 200 
+2026-11-12 13:13:23.651 +07:00 [INF] HTTP GET /api/chatbot/available-models?provider=Mistral&accountId=long243 => 200 in 379ms User=admin TraceId=0HNQ0GFDJV33Q:0000000D 
+2026-11-12 13:13:31.733 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:13:31.741 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:13:32.243 +07:00 [INF] Received HTTP response headers after 479.9354ms - 200 
+2026-11-12 13:13:32.248 +07:00 [INF] End processing HTTP request after 515.0237ms - 200 
+2026-11-12 13:13:32.252 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:13:32.255 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:13:32.653 +07:00 [INF] Received HTTP response headers after 395.9767ms - 200 
+2026-11-12 13:13:32.658 +07:00 [INF] End processing HTTP request after 405.425ms - 200 
+2026-11-12 13:13:32.671 +07:00 [INF] HTTP POST /api/chatbot/test-connection => 200 in 940ms User=admin TraceId=0HNQ0GFDJV33Q:0000000E 
+2026-11-12 13:13:32.688 +07:00 [INF] HTTP GET /api/chatbot/config => 200 in 1ms User=admin TraceId=0HNQ0GFDJV33Q:0000000F 
+2026-11-12 13:13:32.703 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:13:32.706 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:13:33.062 +07:00 [INF] Received HTTP response headers after 353.5435ms - 200 
+2026-11-12 13:13:33.065 +07:00 [INF] End processing HTTP request after 362.2158ms - 200 
+2026-11-12 13:13:33.069 +07:00 [INF] HTTP GET /api/chatbot/available-models?provider=Mistral&accountId=long243 => 200 in 367ms User=admin TraceId=0HNQ0GFDJV33Q:00000010 
+2026-11-12 13:13:43.863 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:13:43.868 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:13:44.429 +07:00 [INF] Received HTTP response headers after 557.2984ms - 200 
+2026-11-12 13:13:44.433 +07:00 [INF] End processing HTTP request after 569.491ms - 200 
+2026-11-12 13:13:44.437 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 577ms User=admin TraceId=0HNQ0GFDJV33Q:00000011 
+2026-11-12 13:17:49.255 +07:00 [INF] Application is shutting down... 
+2026-11-12 13:17:49.264 +07:00 [INF] HTTP GET /hubs/clinic?id=h9Zyk2NX9UxtFRJvjwVDNg => 101 in 322327ms User=admin TraceId=0HNQ0GFDJV33U:00000001 
+2026-11-12 13:20:50.503 +07:00 [INF] Now listening on: http://localhost:5000 
+2026-11-12 13:20:50.577 +07:00 [INF] Application started. Press Ctrl+C to shut down. 
+2026-11-12 13:20:50.579 +07:00 [INF] Hosting environment: Production 
+2026-11-12 13:20:50.581 +07:00 [INF] Content root path: D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main 
+2026-11-12 13:20:52.795 +07:00 [INF] HTTP GET /admin.html => 304 in 85ms User=admin TraceId=0HNQ0GKD4F3CG:00000001 
+2026-11-12 13:20:53.364 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 429ms User=admin TraceId=0HNQ0GKD4F3CH:00000001 
+2026-11-12 13:20:53.421 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 7ms User=admin TraceId=0HNQ0GKD4F3CH:00000002 
+2026-11-12 13:20:55.035 +07:00 [INF] HTTP GET /api/auth/me => 200 in 2131ms User=admin TraceId=0HNQ0GKD4F3CG:00000002 
+2026-11-12 13:20:55.131 +07:00 [INF] HTTP GET /api/chatbot/config => 200 in 56ms User=admin TraceId=0HNQ0GKD4F3CL:00000001 
+2026-11-12 13:20:55.192 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:20:55.199 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:20:55.257 +07:00 [INF] HTTP GET /api/doctors?includeInactive=true => 200 in 193ms User=admin TraceId=0HNQ0GKD4F3CH:00000003 
+2026-11-12 13:20:55.294 +07:00 [INF] HTTP GET /api/doctors?includeInactive=true => 200 in 21ms User=admin TraceId=0HNQ0GKD4F3CH:00000004 
+2026-11-12 13:20:55.320 +07:00 [INF] HTTP GET /api/doctor-leaves => 200 in 246ms User=admin TraceId=0HNQ0GKD4F3CJ:00000001 
+2026-11-12 13:20:55.378 +07:00 [INF] HTTP GET /api/reviews => 200 in 301ms User=admin TraceId=0HNQ0GKD4F3CM:00000001 
+2026-11-12 13:20:55.434 +07:00 [INF] HTTP GET /api/files/10 => 200 in 127ms User=admin TraceId=0HNQ0GKD4F3CH:00000005 
+2026-11-12 13:20:55.564 +07:00 [INF] HTTP GET /api/dashboard/admin => 200 in 502ms User=admin TraceId=0HNQ0GKD4F3CG:00000003 
+2026-11-12 13:20:55.899 +07:00 [INF] Received HTTP response headers after 691.3418ms - 200 
+2026-11-12 13:20:55.903 +07:00 [INF] End processing HTTP request after 721.5068ms - 200 
+2026-11-12 13:20:56.407 +07:00 [INF] HTTP GET /api/chatbot/available-models?provider=Mistral&accountId=long243 => 200 in 1259ms User=admin TraceId=0HNQ0GKD4F3CL:00000002 
+2026-11-12 13:20:57.069 +07:00 [INF] HTTP GET /api/users?pageNumber=1&pageSize=10&searchTerm=&role=&sortBy=username&isDescending=false => 200 in 1995ms User=admin TraceId=0HNQ0GKD4F3CK:00000001 
+2026-11-12 13:21:06.728 +07:00 [INF] HTTP POST /api/chatbot/config => 200 in 65ms User=admin TraceId=0HNQ0GKD4F3CK:00000002 
+2026-11-12 13:21:06.815 +07:00 [INF] HTTP GET /api/chatbot/config => 200 in 40ms User=admin TraceId=0HNQ0GKD4F3CK:00000003 
+2026-11-12 13:21:06.835 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:06.840 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:07.350 +07:00 [INF] Received HTTP response headers after 508.04ms - 200 
+2026-11-12 13:21:07.363 +07:00 [INF] End processing HTTP request after 529.6676ms - 200 
+2026-11-12 13:21:07.862 +07:00 [INF] HTTP GET /api/chatbot/available-models?provider=Mistral => 200 in 1030ms User=admin TraceId=0HNQ0GKD4F3CK:00000004 
+2026-11-12 13:21:18.243 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:21:18.245 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:21:18.824 +07:00 [INF] Received HTTP response headers after 575.915ms - 400 
+2026-11-12 13:21:18.848 +07:00 [INF] End processing HTTP request after 605.2198ms - 400 
+2026-11-12 13:21:18.863 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:18.872 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:19.636 +07:00 [INF] Received HTTP response headers after 758.5347ms - 200 
+2026-11-12 13:21:19.643 +07:00 [INF] End processing HTTP request after 780.0673ms - 200 
+2026-11-12 13:21:19.846 +07:00 [WRN] [Mistral Test] Status 400: top_p must be 1 when using greedy sampling. 
+2026-11-12 13:21:19.875 +07:00 [INF] HTTP POST /api/chatbot/test-connection => 200 in 1677ms User=admin TraceId=0HNQ0GKD4F3CK:00000005 
+2026-11-12 13:21:19.928 +07:00 [INF] HTTP GET /api/chatbot/config => 200 in 4ms User=admin TraceId=0HNQ0GKD4F3CK:00000006 
+2026-11-12 13:21:19.950 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:19.958 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:20.354 +07:00 [INF] Received HTTP response headers after 391.2731ms - 200 
+2026-11-12 13:21:20.359 +07:00 [INF] End processing HTTP request after 408.9561ms - 200 
+2026-11-12 13:21:20.866 +07:00 [INF] HTTP GET /api/chatbot/available-models?provider=Mistral => 200 in 917ms User=admin TraceId=0HNQ0GKD4F3CK:00000007 
+2026-11-12 13:21:23.446 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:21:23.449 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:21:23.936 +07:00 [INF] Received HTTP response headers after 482.3615ms - 400 
+2026-11-12 13:21:23.937 +07:00 [INF] End processing HTTP request after 491.9183ms - 400 
+2026-11-12 13:21:23.939 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:23.940 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:24.654 +07:00 [INF] Received HTTP response headers after 711.7395ms - 200 
+2026-11-12 13:21:24.657 +07:00 [INF] End processing HTTP request after 717.948ms - 200 
+2026-11-12 13:21:24.859 +07:00 [WRN] [Mistral Test] Status 400: Invalid model: mistral-ocr-3 
+2026-11-12 13:21:24.866 +07:00 [INF] HTTP POST /api/chatbot/test-connection => 200 in 1422ms User=admin TraceId=0HNQ0GKD4F3CK:00000008 
+2026-11-12 13:21:24.879 +07:00 [INF] HTTP GET /api/chatbot/config => 200 in 1ms User=admin TraceId=0HNQ0GKD4F3CK:00000009 
+2026-11-12 13:21:24.894 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:24.898 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:25.369 +07:00 [INF] Received HTTP response headers after 465.2766ms - 200 
+2026-11-12 13:21:25.372 +07:00 [INF] End processing HTTP request after 477.5072ms - 200 
+2026-11-12 13:21:25.883 +07:00 [INF] HTTP GET /api/chatbot/available-models?provider=Mistral => 200 in 989ms User=admin TraceId=0HNQ0GKD4F3CK:0000000A 
+2026-11-12 13:21:29.070 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:21:29.072 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:21:29.467 +07:00 [INF] Received HTTP response headers after 391.9875ms - 429 
+2026-11-12 13:21:29.479 +07:00 [INF] End processing HTTP request after 408.7123ms - 429 
+2026-11-12 13:21:29.488 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:29.494 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:29.979 +07:00 [INF] Received HTTP response headers after 477.1047ms - 200 
+2026-11-12 13:21:29.992 +07:00 [INF] End processing HTTP request after 503.7589ms - 200 
+2026-11-12 13:21:30.609 +07:00 [WRN] [Mistral Test] Status 429: Rate limit exceeded 
+2026-11-12 13:21:30.628 +07:00 [INF] HTTP POST /api/chatbot/test-connection => 200 in 1560ms User=admin TraceId=0HNQ0GKD4F3CK:0000000B 
+2026-11-12 13:21:30.662 +07:00 [INF] HTTP GET /api/chatbot/config => 200 in 2ms User=admin TraceId=0HNQ0GKD4F3CK:0000000C 
+2026-11-12 13:21:30.690 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:30.694 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:31.106 +07:00 [INF] Received HTTP response headers after 406.2468ms - 200 
+2026-11-12 13:21:31.111 +07:00 [INF] End processing HTTP request after 420.7221ms - 200 
+2026-11-12 13:21:31.828 +07:00 [INF] HTTP GET /api/chatbot/available-models?provider=Mistral => 200 in 1140ms User=admin TraceId=0HNQ0GKD4F3CK:0000000D 
+2026-11-12 13:21:35.518 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:21:35.524 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:21:35.918 +07:00 [INF] Received HTTP response headers after 388.8112ms - 400 
+2026-11-12 13:21:35.921 +07:00 [INF] End processing HTTP request after 403.5206ms - 400 
+2026-11-12 13:21:35.924 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:35.934 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:36.430 +07:00 [INF] Received HTTP response headers after 479.1793ms - 200 
+2026-11-12 13:21:36.443 +07:00 [INF] End processing HTTP request after 519.408ms - 200 
+2026-11-12 13:21:36.945 +07:00 [WRN] [Mistral Test] Status 400: Invalid model: mistral-ocr-4-1 
+2026-11-12 13:21:36.953 +07:00 [INF] HTTP POST /api/chatbot/test-connection => 200 in 1437ms User=admin TraceId=0HNQ0GKD4F3CK:0000000E 
+2026-11-12 13:21:37.012 +07:00 [INF] HTTP GET /api/chatbot/config => 200 in 17ms User=admin TraceId=0HNQ0GKD4F3CK:0000000F 
+2026-11-12 13:21:37.098 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:37.105 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:37.763 +07:00 [INF] Received HTTP response headers after 651.064ms - 200 
+2026-11-12 13:21:37.766 +07:00 [INF] End processing HTTP request after 668.5273ms - 200 
+2026-11-12 13:21:38.479 +07:00 [INF] HTTP GET /api/chatbot/available-models?provider=Mistral => 200 in 1388ms User=admin TraceId=0HNQ0GKD4F3CK:00000010 
+2026-11-12 13:21:43.399 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:21:43.430 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:21:43.907 +07:00 [INF] Received HTTP response headers after 464.4241ms - 400 
+2026-11-12 13:21:43.934 +07:00 [INF] End processing HTTP request after 534.1051ms - 400 
+2026-11-12 13:21:43.955 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:43.962 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:44.418 +07:00 [INF] Received HTTP response headers after 449.3619ms - 200 
+2026-11-12 13:21:44.423 +07:00 [INF] End processing HTTP request after 468.006ms - 200 
+2026-11-12 13:21:44.931 +07:00 [WRN] [Mistral Test] Status 400: Invalid model: mistral-ocr-latest 
+2026-11-12 13:21:44.939 +07:00 [INF] HTTP POST /api/chatbot/test-connection => 200 in 1542ms User=admin TraceId=0HNQ0GKD4F3CK:00000011 
+2026-11-12 13:21:44.958 +07:00 [INF] HTTP GET /api/chatbot/config => 200 in 4ms User=admin TraceId=0HNQ0GKD4F3CK:00000012 
+2026-11-12 13:21:44.978 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:44.985 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:45.544 +07:00 [INF] Received HTTP response headers after 553.228ms - 200 
+2026-11-12 13:21:45.549 +07:00 [INF] End processing HTTP request after 570.6096ms - 200 
+2026-11-12 13:21:46.162 +07:00 [INF] HTTP GET /api/chatbot/available-models?provider=Mistral => 200 in 1186ms User=admin TraceId=0HNQ0GKD4F3CK:00000013 
+2026-11-12 13:21:50.884 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:21:50.889 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:21:51.894 +07:00 [INF] Received HTTP response headers after 1000.4244ms - 429 
+2026-11-12 13:21:51.929 +07:00 [INF] End processing HTTP request after 1045.7016ms - 429 
+2026-11-12 13:21:51.932 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:51.938 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:52.303 +07:00 [INF] Received HTTP response headers after 360.0872ms - 200 
+2026-11-12 13:21:52.312 +07:00 [INF] End processing HTTP request after 380.3446ms - 200 
+2026-11-12 13:21:52.949 +07:00 [WRN] [Mistral Test] Status 429: Rate limit exceeded 
+2026-11-12 13:21:52.966 +07:00 [INF] HTTP POST /api/chatbot/test-connection => 200 in 2084ms User=admin TraceId=0HNQ0GKD4F3CK:00000014 
+2026-11-12 13:21:52.997 +07:00 [INF] HTTP GET /api/chatbot/config => 200 in 4ms User=admin TraceId=0HNQ0GKD4F3CK:00000015 
+2026-11-12 13:21:53.022 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:53.028 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:53.432 +07:00 [INF] Received HTTP response headers after 397.2552ms - 200 
+2026-11-12 13:21:53.440 +07:00 [INF] End processing HTTP request after 417.9444ms - 200 
+2026-11-12 13:21:53.943 +07:00 [INF] HTTP GET /api/chatbot/available-models?provider=Mistral => 200 in 924ms User=admin TraceId=0HNQ0GKD4F3CK:00000016 
+2026-11-12 13:21:57.231 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:21:57.247 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:21:57.606 +07:00 [INF] Received HTTP response headers after 351.7938ms - 400 
+2026-11-12 13:21:57.610 +07:00 [INF] End processing HTTP request after 379.0393ms - 400 
+2026-11-12 13:21:57.613 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:57.614 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:58.220 +07:00 [INF] Received HTTP response headers after 596.779ms - 200 
+2026-11-12 13:21:58.229 +07:00 [INF] End processing HTTP request after 616.2711ms - 200 
+2026-11-12 13:21:58.474 +07:00 [WRN] [Mistral Test] Status 400: Invalid model: mistral-embed 
+2026-11-12 13:21:58.497 +07:00 [INF] HTTP POST /api/chatbot/test-connection => 200 in 1269ms User=admin TraceId=0HNQ0GKD4F3CK:00000017 
+2026-11-12 13:21:58.552 +07:00 [INF] HTTP GET /api/chatbot/config => 200 in 10ms User=admin TraceId=0HNQ0GKD4F3CK:00000018 
+2026-11-12 13:21:58.596 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:58.609 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:21:59.063 +07:00 [INF] Received HTTP response headers after 446.8798ms - 200 
+2026-11-12 13:21:59.074 +07:00 [INF] End processing HTTP request after 478.0579ms - 200 
+2026-11-12 13:21:59.885 +07:00 [INF] HTTP GET /api/chatbot/available-models?provider=Mistral => 200 in 1291ms User=admin TraceId=0HNQ0GKD4F3CK:00000019 
+2026-11-12 13:22:12.253 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:22:12.284 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:22:12.896 +07:00 [INF] Received HTTP response headers after 597.4173ms - 200 
+2026-11-12 13:22:12.901 +07:00 [INF] End processing HTTP request after 647.7466ms - 200 
+2026-11-12 13:22:12.911 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:22:12.916 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:22:13.612 +07:00 [INF] Received HTTP response headers after 691.5836ms - 200 
+2026-11-12 13:22:13.618 +07:00 [INF] End processing HTTP request after 707.8265ms - 200 
+2026-11-12 13:22:13.948 +07:00 [INF] HTTP POST /api/chatbot/test-connection => 200 in 1697ms User=admin TraceId=0HNQ0GKD4F3CK:0000001A 
+2026-11-12 13:22:13.982 +07:00 [INF] HTTP GET /api/chatbot/config => 200 in 3ms User=admin TraceId=0HNQ0GKD4F3CK:0000001B 
+2026-11-12 13:22:14.015 +07:00 [INF] Start processing HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:22:14.018 +07:00 [INF] Sending HTTP request GET https://api.mistral.ai/v1/models 
+2026-11-12 13:22:14.532 +07:00 [INF] Received HTTP response headers after 504.116ms - 200 
+2026-11-12 13:22:14.536 +07:00 [INF] End processing HTTP request after 521.3888ms - 200 
+2026-11-12 13:22:15.044 +07:00 [INF] HTTP GET /api/chatbot/available-models?provider=Mistral => 200 in 1034ms User=admin TraceId=0HNQ0GKD4F3CK:0000001C 
+2026-11-12 13:22:25.381 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:22:25.383 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:22:26.098 +07:00 [INF] Received HTTP response headers after 712.7808ms - 200 
+2026-11-12 13:22:26.101 +07:00 [INF] End processing HTTP request after 719.6027ms - 200 
+2026-11-12 13:22:26.114 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 823ms User=admin TraceId=0HNQ0GKD4F3CK:0000001D 
+2026-11-12 13:22:49.915 +07:00 [INF] HTTP POST /api/auth/logout => 204 in 1546ms User=admin TraceId=0HNQ0GKD4F3CK:0000001E 
+2026-11-12 13:22:50.114 +07:00 [INF] HTTP GET /hubs/clinic?id=j_Q2RUXSDp9OkbUN4HNe3Q => 101 in 116675ms User=admin TraceId=0HNQ0GKD4F3CI:00000001 
+2026-11-12 13:22:58.055 +07:00 [INF] HTTP POST /api/auth/login => 200 in 1904ms User=anonymous TraceId=0HNQ0GKD4F3CK:0000001F 
+2026-11-12 13:22:58.319 +07:00 [INF] HTTP GET /api/doctors => 200 in 27ms User=long243 TraceId=0HNQ0GKD4F3CK:00000020 
+2026-11-12 13:22:58.354 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 61ms User=long243 TraceId=0HNQ0GKD4F3CL:00000003 
+2026-11-12 13:22:58.362 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 15ms User=long243 TraceId=0HNQ0GKD4F3CH:00000006 
+2026-11-12 13:22:58.402 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 0ms User=long243 TraceId=0HNQ0GKD4F3CH:00000007 
+2026-11-12 13:22:59.480 +07:00 [INF] HTTP GET /api/auth/me => 200 in 1184ms User=long243 TraceId=0HNQ0GKD4F3CG:00000004 
+2026-11-12 13:22:59.530 +07:00 [INF] HTTP GET /api/auth/me => 200 in 1185ms User=long243 TraceId=0HNQ0GKD4F3CK:00000021 
+2026-11-12 13:22:59.549 +07:00 [INF] HTTP GET /api/patients/me => 200 in 61ms User=long243 TraceId=0HNQ0GKD4F3CG:00000005 
+2026-11-12 13:22:59.580 +07:00 [INF] HTTP GET /api/chatbot/prompts => 200 in 8ms User=long243 TraceId=0HNQ0GKD4F3CG:00000006 
+2026-11-12 13:22:59.683 +07:00 [INF] HTTP GET /api/appointments => 200 in 103ms User=long243 TraceId=0HNQ0GKD4F3CK:00000022 
+2026-11-12 13:22:59.689 +07:00 [INF] HTTP GET /api/medical-records => 200 in 108ms User=long243 TraceId=0HNQ0GKD4F3CH:00000008 
+2026-11-12 13:22:59.758 +07:00 [INF] HTTP GET /api/medical-records/9/prescriptions => 200 in 59ms User=long243 TraceId=0HNQ0GKD4F3CH:00000009 
+2026-11-12 13:22:59.758 +07:00 [INF] HTTP GET /api/medical-records/8/prescriptions => 200 in 59ms User=long243 TraceId=0HNQ0GKD4F3CK:00000023 
+2026-11-12 13:22:59.793 +07:00 [INF] HTTP GET /api/otc-medicines/orders/mine => 200 in 213ms User=long243 TraceId=0HNQ0GKD4F3CL:00000004 
+2026-11-12 13:23:34.076 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:23:34.079 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:23:35.635 +07:00 [INF] Received HTTP response headers after 1553.7626ms - 200 
+2026-11-12 13:23:35.640 +07:00 [INF] End processing HTTP request after 1563.8618ms - 200 
+2026-11-12 13:23:35.643 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 1575ms User=long243 TraceId=0HNQ0GKD4F3CL:00000005 
+2026-11-12 13:24:01.116 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:24:01.119 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:24:01.850 +07:00 [INF] Received HTTP response headers after 728.4411ms - 200 
+2026-11-12 13:24:01.853 +07:00 [INF] End processing HTTP request after 737.5614ms - 200 
+2026-11-12 13:24:01.856 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 744ms User=long243 TraceId=0HNQ0GKD4F3CL:00000006 
+2026-11-12 13:24:45.809 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:24:45.816 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:24:46.705 +07:00 [INF] Received HTTP response headers after 884.8275ms - 200 
+2026-11-12 13:24:46.709 +07:00 [INF] End processing HTTP request after 899.9687ms - 200 
+2026-11-12 13:24:46.716 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 911ms User=long243 TraceId=0HNQ0GKD4F3CL:00000007 
+2026-11-12 13:25:25.458 +07:00 [INF] Application is shutting down... 
+2026-11-12 13:25:25.486 +07:00 [INF] HTTP GET /hubs/clinic?id=YBBnPI3zyL-eIN5jh3AoAw => 101 in 147033ms User=long243 TraceId=0HNQ0GKD4F3CN:00000001 
+2026-11-12 13:25:38.268 +07:00 [INF] Now listening on: http://localhost:5000 
+2026-11-12 13:25:38.324 +07:00 [INF] Application started. Press Ctrl+C to shut down. 
+2026-11-12 13:25:38.326 +07:00 [INF] Hosting environment: Production 
+2026-11-12 13:25:38.327 +07:00 [INF] Content root path: D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main 
+2026-11-12 13:25:39.666 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 54ms User=long243 TraceId=0HNQ0GN2LBG72:00000001 
+2026-11-12 13:25:40.274 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 285ms User=long243 TraceId=0HNQ0GN2LBG72:00000002 
+2026-11-12 13:25:44.278 +07:00 [INF] HTTP GET /user.html => 304 in 20ms User=long243 TraceId=0HNQ0GN2LBG72:00000003 
+2026-11-12 13:25:44.390 +07:00 [INF] HTTP GET /hubs/clinic?id=rbjUTfePjYzmrVdNzpkSug => 101 in 4708ms User=long243 TraceId=0HNQ0GN2LBG73:00000001 
+2026-11-12 13:25:44.618 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 198ms User=long243 TraceId=0HNQ0GN2LBG74:00000001 
+2026-11-12 13:25:44.732 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 307ms User=long243 TraceId=0HNQ0GN2LBG77:00000001 
+2026-11-12 13:25:44.751 +07:00 [INF] HTTP GET /api/doctors => 200 in 330ms User=long243 TraceId=0HNQ0GN2LBG72:00000004 
+2026-11-12 13:25:44.770 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 1ms User=long243 TraceId=0HNQ0GN2LBG72:00000005 
+2026-11-12 13:25:46.519 +07:00 [INF] HTTP GET /api/auth/me => 200 in 2099ms User=long243 TraceId=0HNQ0GN2LBG75:00000001 
+2026-11-12 13:25:46.519 +07:00 [INF] HTTP GET /api/auth/me => 200 in 2099ms User=long243 TraceId=0HNQ0GN2LBG76:00000001 
+2026-11-12 13:25:46.584 +07:00 [INF] HTTP GET /api/chatbot/prompts => 200 in 32ms User=long243 TraceId=0HNQ0GN2LBG76:00000002 
+2026-11-12 13:25:46.687 +07:00 [INF] HTTP GET /api/patients/me => 200 in 135ms User=long243 TraceId=0HNQ0GN2LBG75:00000002 
+2026-11-12 13:25:46.816 +07:00 [INF] HTTP GET /api/medical-records => 200 in 116ms User=long243 TraceId=0HNQ0GN2LBG76:00000003 
+2026-11-12 13:25:46.890 +07:00 [INF] HTTP GET /api/appointments => 200 in 189ms User=long243 TraceId=0HNQ0GN2LBG75:00000003 
+2026-11-12 13:25:46.908 +07:00 [INF] HTTP GET /api/medical-records/8/prescriptions => 200 in 80ms User=long243 TraceId=0HNQ0GN2LBG77:00000002 
+2026-11-12 13:25:46.908 +07:00 [INF] HTTP GET /api/medical-records/9/prescriptions => 200 in 80ms User=long243 TraceId=0HNQ0GN2LBG76:00000004 
+2026-11-12 13:25:46.919 +07:00 [INF] HTTP GET /api/otc-medicines/orders/mine => 200 in 217ms User=long243 TraceId=0HNQ0GN2LBG72:00000006 
+2026-11-12 13:25:55.855 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:25:55.860 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:25:57.603 +07:00 [INF] Received HTTP response headers after 1735.3444ms - 200 
+2026-11-12 13:25:57.610 +07:00 [INF] End processing HTTP request after 1759.5572ms - 200 
+2026-11-12 13:25:57.638 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 1911ms User=long243 TraceId=0HNQ0GN2LBG72:00000007 
+2026-11-12 13:26:16.441 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:26:16.444 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:26:18.055 +07:00 [INF] Received HTTP response headers after 1608.5074ms - 200 
+2026-11-12 13:26:18.058 +07:00 [INF] End processing HTTP request after 1617.0557ms - 200 
+2026-11-12 13:26:18.064 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 1629ms User=long243 TraceId=0HNQ0GN2LBG72:00000008 
+2026-11-12 13:26:39.128 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:26:39.134 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:26:40.379 +07:00 [INF] Received HTTP response headers after 1241.1401ms - 200 
+2026-11-12 13:26:40.384 +07:00 [INF] End processing HTTP request after 1256.281ms - 200 
+2026-11-12 13:26:40.390 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 1265ms User=long243 TraceId=0HNQ0GN2LBG72:00000009 
+2026-11-12 13:26:52.922 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:26:52.926 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:26:54.102 +07:00 [INF] Received HTTP response headers after 1172.8021ms - 429 
+2026-11-12 13:26:54.105 +07:00 [INF] End processing HTTP request after 1182.5694ms - 429 
+2026-11-12 13:26:54.109 +07:00 [ERR] [Mistral Chat Error] Status: 429, Body: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} 
+2026-11-12 13:26:54.122 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 1202ms User=long243 TraceId=0HNQ0GN2LBG72:0000000A 
+2026-11-12 13:27:25.938 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 12ms User=long243 TraceId=0HNQ0GN2LBG72:0000000B 
+2026-11-12 13:30:03.390 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 6ms User=long243 TraceId=0HNQ0GN2LBG79:00000001 
+2026-11-12 13:30:11.650 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:30:11.652 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:30:12.489 +07:00 [INF] Received HTTP response headers after 833.8086ms - 200 
+2026-11-12 13:30:12.491 +07:00 [INF] End processing HTTP request after 841.1542ms - 200 
+2026-11-12 13:30:12.494 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 846ms User=long243 TraceId=0HNQ0GN2LBG79:00000002 
+2026-11-12 13:30:22.843 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 8ms User=long243 TraceId=0HNQ0GN2LBG79:00000003 
+2026-11-12 13:30:45.040 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 4ms User=long243 TraceId=0HNQ0GN2LBG79:00000004 
+2026-11-12 13:31:02.473 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 7ms User=long243 TraceId=0HNQ0GN2LBG79:00000005 
+2026-11-12 13:31:13.973 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:31:13.975 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:31:14.934 +07:00 [INF] Received HTTP response headers after 956.8388ms - 200 
+2026-11-12 13:31:14.938 +07:00 [INF] End processing HTTP request after 964.8383ms - 200 
+2026-11-12 13:31:14.943 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 971ms User=long243 TraceId=0HNQ0GN2LBG79:00000006 
+2026-11-12 13:31:35.283 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:31:35.286 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:31:36.747 +07:00 [INF] Received HTTP response headers after 1458.3503ms - 200 
+2026-11-12 13:31:36.750 +07:00 [INF] End processing HTTP request after 1466.3708ms - 200 
+2026-11-12 13:31:36.808 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 1526ms User=long243 TraceId=0HNQ0GN2LBG79:00000007 
+2026-11-12 13:33:04.104 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:33:04.106 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:33:06.253 +07:00 [INF] Received HTTP response headers after 2144.282ms - 200 
+2026-11-12 13:33:06.256 +07:00 [INF] End processing HTTP request after 2152.23ms - 200 
+2026-11-12 13:33:06.259 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 2177ms User=long243 TraceId=0HNQ0GN2LBG79:00000008 
+2026-11-12 13:36:43.189 +07:00 [INF] Application is shutting down... 
+2026-11-12 13:36:43.196 +07:00 [INF] HTTP GET /hubs/clinic?id=MLzPfSoqn3lfnEFeD_eY1g => 101 in 658350ms User=long243 TraceId=0HNQ0GN2LBG78:00000001 
+2026-11-12 13:36:55.300 +07:00 [INF] Now listening on: http://localhost:5000 
+2026-11-12 13:36:55.356 +07:00 [INF] Application started. Press Ctrl+C to shut down. 
+2026-11-12 13:36:55.359 +07:00 [INF] Hosting environment: Production 
+2026-11-12 13:36:55.360 +07:00 [INF] Content root path: D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main 
+2026-11-12 13:36:56.708 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 52ms User=long243 TraceId=0HNQ0GTCE5N84:00000001 
+2026-11-12 13:36:57.364 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 301ms User=long243 TraceId=0HNQ0GTCE5N84:00000002 
+2026-11-12 13:36:58.625 +07:00 [INF] HTTP GET /user.html => 304 in 33ms User=long243 TraceId=0HNQ0GTCE5N84:00000003 
+2026-11-12 13:36:58.713 +07:00 [INF] HTTP GET /hubs/clinic?id=sW7Pjs7dMJBiC1PXMImcLg => 101 in 1964ms User=long243 TraceId=0HNQ0GTCE5N85:00000001 
+2026-11-12 13:36:58.949 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 189ms User=long243 TraceId=0HNQ0GTCE5N86:00000001 
+2026-11-12 13:36:59.090 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 295ms User=long243 TraceId=0HNQ0GTCE5N89:00000001 
+2026-11-12 13:36:59.107 +07:00 [INF] HTTP GET /api/doctors => 200 in 347ms User=long243 TraceId=0HNQ0GTCE5N84:00000004 
+2026-11-12 13:36:59.261 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 1ms User=long243 TraceId=0HNQ0GTCE5N84:00000005 
+2026-11-12 13:37:00.907 +07:00 [INF] HTTP GET /api/auth/me => 200 in 2112ms User=long243 TraceId=0HNQ0GTCE5N88:00000001 
+2026-11-12 13:37:00.907 +07:00 [INF] HTTP GET /api/auth/me => 200 in 2146ms User=long243 TraceId=0HNQ0GTCE5N87:00000001 
+2026-11-12 13:37:00.983 +07:00 [INF] HTTP GET /api/chatbot/prompts => 200 in 36ms User=long243 TraceId=0HNQ0GTCE5N87:00000002 
+2026-11-12 13:37:01.051 +07:00 [INF] HTTP GET /api/patients/me => 200 in 96ms User=long243 TraceId=0HNQ0GTCE5N88:00000002 
+2026-11-12 13:37:01.185 +07:00 [INF] HTTP GET /api/medical-records => 200 in 118ms User=long243 TraceId=0HNQ0GTCE5N87:00000003 
+2026-11-12 13:37:01.261 +07:00 [INF] HTTP GET /api/appointments => 200 in 198ms User=long243 TraceId=0HNQ0GTCE5N88:00000003 
+2026-11-12 13:37:01.275 +07:00 [INF] HTTP GET /api/medical-records/8/prescriptions => 200 in 76ms User=long243 TraceId=0HNQ0GTCE5N89:00000002 
+2026-11-12 13:37:01.275 +07:00 [INF] HTTP GET /api/medical-records/9/prescriptions => 200 in 75ms User=long243 TraceId=0HNQ0GTCE5N87:00000004 
+2026-11-12 13:37:01.286 +07:00 [INF] HTTP GET /api/otc-medicines/orders/mine => 200 in 219ms User=long243 TraceId=0HNQ0GTCE5N84:00000006 
+2026-11-12 13:37:09.148 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:37:09.153 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:37:11.080 +07:00 [INF] Received HTTP response headers after 1907.0869ms - 200 
+2026-11-12 13:37:11.115 +07:00 [INF] End processing HTTP request after 1972.1137ms - 200 
+2026-11-12 13:37:11.164 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 2117ms User=long243 TraceId=0HNQ0GTCE5N84:00000007 
+2026-11-12 13:37:16.582 +07:00 [INF] HTTP GET /hubs/clinic?id=G5oLKjUyYvwkDVF3k0vJ1w => 101 in 17312ms User=long243 TraceId=0HNQ0GTCE5N8A:00000001 
+2026-11-12 13:37:16.596 +07:00 [INF] HTTP GET /user.html => 200 in 68ms User=long243 TraceId=0HNQ0GTCE5N84:00000008 
+2026-11-12 13:37:16.678 +07:00 [INF] HTTP GET /chatbot.js?v=15.0 => 200 in 5ms User=long243 TraceId=0HNQ0GTCE5N86:00000002 
+2026-11-12 13:37:16.694 +07:00 [INF] HTTP GET /chatbot.css?v=12.0 => 200 in 22ms User=long243 TraceId=0HNQ0GTCE5N87:00000005 
+2026-11-12 13:37:16.694 +07:00 [INF] HTTP GET /role.css?v=6.0 => 200 in 21ms User=long243 TraceId=0HNQ0GTCE5N84:00000009 
+2026-11-12 13:37:16.738 +07:00 [INF] HTTP GET /notifications.js => 200 in 66ms User=long243 TraceId=0HNQ0GTCE5N89:00000003 
+2026-11-12 13:37:16.824 +07:00 [INF] HTTP GET /user-workspace.js?v=6.5 => 200 in 152ms User=long243 TraceId=0HNQ0GTCE5N88:00000004 
+2026-11-12 13:37:16.841 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 7ms User=long243 TraceId=0HNQ0GTCE5N89:00000004 
+2026-11-12 13:37:16.853 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 18ms User=long243 TraceId=0HNQ0GTCE5N86:00000003 
+2026-11-12 13:37:16.855 +07:00 [INF] HTTP GET /api/doctors => 200 in 21ms User=long243 TraceId=0HNQ0GTCE5N88:00000005 
+2026-11-12 13:37:16.902 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 1ms User=long243 TraceId=0HNQ0GTCE5N88:00000006 
+2026-11-12 13:37:17.094 +07:00 [INF] HTTP GET /favicon.ico => 404 in 1ms User=long243 TraceId=0HNQ0GTCE5N88:00000007 
+2026-11-12 13:37:18.301 +07:00 [INF] HTTP GET /api/auth/me => 200 in 1467ms User=long243 TraceId=0HNQ0GTCE5N84:0000000A 
+2026-11-12 13:37:18.301 +07:00 [INF] HTTP GET /api/auth/me => 200 in 1467ms User=long243 TraceId=0HNQ0GTCE5N87:00000006 
+2026-11-12 13:37:18.333 +07:00 [INF] HTTP GET /api/chatbot/prompts => 200 in 4ms User=long243 TraceId=0HNQ0GTCE5N87:00000007 
+2026-11-12 13:37:18.358 +07:00 [INF] HTTP GET /api/patients/me => 200 in 25ms User=long243 TraceId=0HNQ0GTCE5N84:0000000B 
+2026-11-12 13:37:18.386 +07:00 [INF] HTTP GET /api/otc-medicines/orders/mine => 200 in 6ms User=long243 TraceId=0HNQ0GTCE5N88:00000008 
+2026-11-12 13:37:18.386 +07:00 [INF] HTTP GET /api/appointments => 200 in 8ms User=long243 TraceId=0HNQ0GTCE5N84:0000000C 
+2026-11-12 13:37:18.392 +07:00 [INF] HTTP GET /api/medical-records => 200 in 14ms User=long243 TraceId=0HNQ0GTCE5N87:00000008 
+2026-11-12 13:37:18.444 +07:00 [INF] HTTP GET /api/medical-records/9/prescriptions => 200 in 10ms User=long243 TraceId=0HNQ0GTCE5N87:00000009 
+2026-11-12 13:37:18.444 +07:00 [INF] HTTP GET /api/medical-records/8/prescriptions => 200 in 10ms User=long243 TraceId=0HNQ0GTCE5N84:0000000D 
+2026-11-12 13:37:25.484 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:37:25.491 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:37:26.874 +07:00 [INF] Received HTTP response headers after 1378.766ms - 200 
+2026-11-12 13:37:26.877 +07:00 [INF] End processing HTTP request after 1395.7952ms - 200 
+2026-11-12 13:37:26.881 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 1405ms User=long243 TraceId=0HNQ0GTCE5N84:0000000E 
+2026-11-12 13:37:47.727 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:37:47.730 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:37:48.060 +07:00 [INF] Received HTTP response headers after 326.1764ms - 429 
+2026-11-12 13:37:48.067 +07:00 [INF] End processing HTTP request after 339.58ms - 429 
+2026-11-12 13:37:48.072 +07:00 [ERR] [Mistral Chat Error] Status: 429, Body: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} 
+2026-11-12 13:37:48.076 +07:00 [WRN] Nhà cung cấp AI Mistral trả về HTTP 429 
+2026-11-12 13:37:48.078 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 387ms User=long243 TraceId=0HNQ0GTCE5N84:0000000F 
+2026-11-12 13:39:35.012 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 10ms User=long243 TraceId=0HNQ0GTCE5N8C:00000001 
+2026-11-12 13:40:01.644 +07:00 [INF] HTTP GET /api/files/10 => 200 in 142ms User=long243 TraceId=0HNQ0GTCE5N8C:00000002 
+2026-11-12 13:41:01.490 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 11ms User=long243 TraceId=0HNQ0GTCE5N8C:00000003 
+2026-11-12 13:41:09.675 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:41:09.680 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:41:11.055 +07:00 [INF] Received HTTP response headers after 1372.9042ms - 200 
+2026-11-12 13:41:11.061 +07:00 [INF] End processing HTTP request after 1385.9249ms - 200 
+2026-11-12 13:41:11.077 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 1443ms User=long243 TraceId=0HNQ0GTCE5N8C:00000004 
+2026-11-12 13:41:57.656 +07:00 [INF] HTTP POST /api/otc-medicines/order => 200 in 873ms User=long243 TraceId=0HNQ0GTCE5N8C:00000005 
+2026-11-12 13:41:58.926 +07:00 [INF] HTTP GET /api/auth/me => 200 in 1259ms User=long243 TraceId=0HNQ0GTCE5N8C:00000006 
+2026-11-12 13:41:58.959 +07:00 [INF] HTTP GET /api/patients/me => 200 in 23ms User=long243 TraceId=0HNQ0GTCE5N8C:00000007 
+2026-11-12 13:41:58.985 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 16ms User=long243 TraceId=0HNQ0GTCE5N8C:00000008 
+2026-11-12 13:41:58.993 +07:00 [INF] HTTP GET /api/otc-medicines/orders/mine => 200 in 23ms User=long243 TraceId=0HNQ0GTCE5N8D:00000001 
+2026-11-12 13:47:05.542 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 223ms User=long243 TraceId=0HNQ0GTCE5N8E:00000001 
+2026-11-12 13:47:09.507 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 24ms User=long243 TraceId=0HNQ0GTCE5N8E:00000002 
+2026-11-12 13:47:12.856 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 32ms User=long243 TraceId=0HNQ0GTCE5N8E:00000003 
+2026-11-12 13:47:36.516 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 17ms User=long243 TraceId=0HNQ0GTCE5N8E:00000004 
+2026-11-12 13:47:42.012 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 71ms User=long243 TraceId=0HNQ0GTCE5N8E:00000005 
+2026-11-12 13:48:18.628 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:48:18.631 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:48:19.714 +07:00 [INF] Received HTTP response headers after 1079.8508ms - 200 
+2026-11-12 13:48:19.718 +07:00 [INF] End processing HTTP request after 1089.1869ms - 200 
+2026-11-12 13:48:19.725 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 1099ms User=long243 TraceId=0HNQ0GTCE5N8E:00000006 
+2026-11-12 13:48:47.442 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 10ms User=long243 TraceId=0HNQ0GTCE5N8E:00000007 
+2026-11-12 13:49:10.338 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 13ms User=long243 TraceId=0HNQ0GTCE5N8E:00000008 
+2026-11-12 13:49:19.111 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 7ms User=long243 TraceId=0HNQ0GTCE5N8E:00000009 
+2026-11-12 13:49:27.560 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 46ms User=long243 TraceId=0HNQ0GTCE5N8E:0000000A 
+2026-11-12 13:49:35.348 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 7ms User=long243 TraceId=0HNQ0GTCE5N8E:0000000B 
+2026-11-12 13:50:28.725 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 15ms User=long243 TraceId=0HNQ0GTCE5N8E:0000000C 
+2026-11-12 13:50:30.022 +07:00 [INF] HTTP GET /user.html => 200 in 1ms User=long243 TraceId=0HNQ0GTCE5N8E:0000000D 
+2026-11-12 13:50:30.039 +07:00 [INF] HTTP GET /hubs/clinic?id=IZGRHiwWXd_ajpBKE8tyxg => 101 in 793068ms User=long243 TraceId=0HNQ0GTCE5N8B:00000001 
+2026-11-12 13:50:30.389 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 192ms User=long243 TraceId=0HNQ0GTCE5N8G:00000001 
+2026-11-12 13:50:30.575 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 332ms User=long243 TraceId=0HNQ0GTCE5N8I:00000001 
+2026-11-12 13:50:30.617 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 0ms User=long243 TraceId=0HNQ0GTCE5N8I:00000002 
+2026-11-12 13:50:30.686 +07:00 [INF] HTTP GET /api/doctors => 200 in 493ms User=long243 TraceId=0HNQ0GTCE5N8F:00000001 
+2026-11-12 13:50:31.698 +07:00 [INF] HTTP GET /api/auth/me => 200 in 1458ms User=long243 TraceId=0HNQ0GTCE5N8H:00000001 
+2026-11-12 13:50:31.716 +07:00 [INF] HTTP GET /api/auth/me => 200 in 1528ms User=long243 TraceId=0HNQ0GTCE5N8E:0000000E 
+2026-11-12 13:50:31.731 +07:00 [INF] HTTP GET /api/chatbot/prompts => 200 in 1ms User=long243 TraceId=0HNQ0GTCE5N8E:0000000F 
+2026-11-12 13:50:31.758 +07:00 [INF] HTTP GET /api/patients/me => 200 in 24ms User=long243 TraceId=0HNQ0GTCE5N8H:00000002 
+2026-11-12 13:50:31.800 +07:00 [INF] HTTP GET /api/medical-records => 200 in 21ms User=long243 TraceId=0HNQ0GTCE5N8E:00000010 
+2026-11-12 13:50:31.877 +07:00 [INF] HTTP GET /api/medical-records/8/prescriptions => 200 in 68ms User=long243 TraceId=0HNQ0GTCE5N8I:00000003 
+2026-11-12 13:50:31.877 +07:00 [INF] HTTP GET /api/medical-records/9/prescriptions => 200 in 68ms User=long243 TraceId=0HNQ0GTCE5N8E:00000011 
+2026-11-12 13:50:31.878 +07:00 [INF] HTTP GET /api/appointments => 200 in 100ms User=long243 TraceId=0HNQ0GTCE5N8H:00000003 
+2026-11-12 13:50:31.886 +07:00 [INF] HTTP GET /api/otc-medicines/orders/mine => 200 in 108ms User=long243 TraceId=0HNQ0GTCE5N8F:00000002 
+2026-11-12 13:51:35.268 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 15ms User=long243 TraceId=0HNQ0GTCE5N8F:00000003 
+2026-11-12 13:52:01.745 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 6ms User=long243 TraceId=0HNQ0GTCE5N8F:00000004 
+2026-11-12 13:52:11.009 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:52:11.011 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:52:12.064 +07:00 [INF] Received HTTP response headers after 1049.7218ms - 200 
+2026-11-12 13:52:12.067 +07:00 [INF] End processing HTTP request after 1058.0733ms - 200 
+2026-11-12 13:52:12.069 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 1062ms User=long243 TraceId=0HNQ0GTCE5N8F:00000005 
+2026-11-12 13:52:32.305 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:52:32.307 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:52:33.259 +07:00 [INF] Received HTTP response headers after 950.5021ms - 200 
+2026-11-12 13:52:33.264 +07:00 [INF] End processing HTTP request after 958.9166ms - 200 
+2026-11-12 13:52:33.267 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 964ms User=long243 TraceId=0HNQ0GTCE5N8F:00000006 
+2026-11-12 13:52:44.274 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 22ms User=long243 TraceId=0HNQ0GTCE5N8F:00000007 
+2026-11-12 13:53:11.139 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 4ms User=long243 TraceId=0HNQ0GTCE5N8F:00000008 
+2026-11-12 13:53:18.782 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 10ms User=long243 TraceId=0HNQ0GTCE5N8F:00000009 
+2026-11-12 13:53:28.932 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 7ms User=long243 TraceId=0HNQ0GTCE5N8F:0000000A 
+2026-11-12 13:53:30.115 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 13ms User=long243 TraceId=0HNQ0GTCE5N8F:0000000B 
+2026-11-12 13:53:45.029 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 35ms User=long243 TraceId=0HNQ0GTCE5N8F:0000000C 
+2026-11-12 13:53:50.170 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 17ms User=long243 TraceId=0HNQ0GTCE5N8F:0000000D 
+2026-11-12 13:54:07.740 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 9ms User=long243 TraceId=0HNQ0GTCE5N8F:0000000E 
+2026-11-12 13:55:08.191 +07:00 [INF] Application is shutting down... 
+2026-11-12 13:55:08.200 +07:00 [INF] HTTP GET /hubs/clinic?id=Uotn8SEdoY8XbK4-y4jHBg => 101 in 277561ms User=long243 TraceId=0HNQ0GTCE5N8J:00000001 
+2026-11-12 13:55:33.808 +07:00 [INF] Now listening on: http://localhost:5000 
+2026-11-12 13:55:33.856 +07:00 [INF] Application started. Press Ctrl+C to shut down. 
+2026-11-12 13:55:33.857 +07:00 [INF] Hosting environment: Production 
+2026-11-12 13:55:33.857 +07:00 [INF] Content root path: D:\Nhom6-Detai8_LTW2-Luan\Nhom6-Detai8_LTW2-main 
+2026-11-12 13:55:37.971 +07:00 [INF] HTTP GET /api/auth/me => 401 in 62ms User=anonymous TraceId=0HNQ0H7QJ2TKK:00000001 
+2026-11-12 13:55:40.170 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 346ms User=long243 TraceId=0HNQ0H7QJ2TKL:00000001 
+2026-11-12 13:55:48.223 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 216ms User=long243 TraceId=0HNQ0H7QJ2TKL:00000002 
+2026-11-12 13:55:52.660 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 8ms User=long243 TraceId=0HNQ0H7QJ2TKL:00000003 
+2026-11-12 13:56:33.501 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 31ms User=long243 TraceId=0HNQ0H7QJ2TKL:00000004 
+2026-11-12 13:56:58.533 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 10ms User=long243 TraceId=0HNQ0H7QJ2TKL:00000005 
+2026-11-12 13:56:59.876 +07:00 [INF] HTTP GET /user.html => 304 in 8ms User=long243 TraceId=0HNQ0H7QJ2TKL:00000006 
+2026-11-12 13:56:59.919 +07:00 [INF] HTTP GET /hubs/clinic?id=vZBdWpD-_1YokJJt8eb-VA => 101 in 67244ms User=long243 TraceId=0HNQ0H7QJ2TKM:00000001 
+2026-11-12 13:57:00.058 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 14ms User=long243 TraceId=0HNQ0H7QJ2TKO:00000001 
+2026-11-12 13:57:00.186 +07:00 [INF] HTTP GET /api/notifications?limit=25 => 200 in 136ms User=long243 TraceId=0HNQ0H7QJ2TKQ:00000001 
+2026-11-12 13:57:00.200 +07:00 [INF] HTTP POST /hubs/clinic/negotiate?negotiateVersion=1 => 200 in 1ms User=long243 TraceId=0HNQ0H7QJ2TKQ:00000002 
+2026-11-12 13:57:00.248 +07:00 [INF] HTTP GET /api/doctors => 200 in 204ms User=long243 TraceId=0HNQ0H7QJ2TKN:00000001 
+2026-11-12 13:57:02.024 +07:00 [INF] HTTP GET /api/auth/me => 200 in 1978ms User=long243 TraceId=0HNQ0H7QJ2TKL:00000007 
+2026-11-12 13:57:02.024 +07:00 [INF] HTTP GET /api/auth/me => 200 in 1978ms User=long243 TraceId=0HNQ0H7QJ2TKP:00000001 
+2026-11-12 13:57:02.086 +07:00 [INF] HTTP GET /api/chatbot/prompts => 200 in 28ms User=long243 TraceId=0HNQ0H7QJ2TKL:00000008 
+2026-11-12 13:57:02.197 +07:00 [INF] HTTP GET /api/patients/me => 200 in 139ms User=long243 TraceId=0HNQ0H7QJ2TKP:00000002 
+2026-11-12 13:57:02.431 +07:00 [INF] HTTP GET /api/otc-medicines/orders/mine => 200 in 225ms User=long243 TraceId=0HNQ0H7QJ2TKN:00000002 
+2026-11-12 13:57:02.431 +07:00 [INF] HTTP GET /api/medical-records => 200 in 225ms User=long243 TraceId=0HNQ0H7QJ2TKL:00000009 
+2026-11-12 13:57:02.454 +07:00 [INF] HTTP GET /api/appointments => 200 in 248ms User=long243 TraceId=0HNQ0H7QJ2TKP:00000003 
+2026-11-12 13:57:02.574 +07:00 [INF] HTTP GET /api/medical-records/8/prescriptions => 200 in 132ms User=long243 TraceId=0HNQ0H7QJ2TKN:00000003 
+2026-11-12 13:57:02.574 +07:00 [INF] HTTP GET /api/medical-records/9/prescriptions => 200 in 132ms User=long243 TraceId=0HNQ0H7QJ2TKL:0000000A 
+2026-11-12 13:57:10.300 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:57:10.302 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:57:12.885 +07:00 [INF] Received HTTP response headers after 2570.6431ms - 200 
+2026-11-12 13:57:12.896 +07:00 [INF] End processing HTTP request after 2602.4165ms - 200 
+2026-11-12 13:57:13.021 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 2820ms User=long243 TraceId=0HNQ0H7QJ2TKL:0000000B 
+2026-11-12 13:57:25.481 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 16ms User=long243 TraceId=0HNQ0H7QJ2TKL:0000000C 
+2026-11-12 13:57:35.778 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:57:35.779 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:57:38.681 +07:00 [INF] Received HTTP response headers after 2901.6878ms - 200 
+2026-11-12 13:57:38.683 +07:00 [INF] End processing HTTP request after 2908.6181ms - 200 
+2026-11-12 13:57:38.701 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 2935ms User=long243 TraceId=0HNQ0H7QJ2TKL:0000000D 
+2026-11-12 13:57:53.998 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:57:53.999 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:57:54.400 +07:00 [INF] Received HTTP response headers after 400.8714ms - 429 
+2026-11-12 13:57:54.401 +07:00 [INF] End processing HTTP request after 402.6329ms - 429 
+2026-11-12 13:57:54.403 +07:00 [ERR] [Mistral Chat Error] Status: 429, Body: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} 
+2026-11-12 13:57:54.404 +07:00 [WRN] Nhà cung cấp AI Mistral trả về HTTP 429 
+2026-11-12 13:57:54.405 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 408ms User=long243 TraceId=0HNQ0H7QJ2TKL:0000000E 
+2026-11-12 13:58:02.607 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 13ms User=long243 TraceId=0HNQ0H7QJ2TKL:0000000F 
+2026-11-12 13:58:12.510 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:58:12.511 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:58:14.369 +07:00 [INF] Received HTTP response headers after 1858.2279ms - 200 
+2026-11-12 13:58:14.369 +07:00 [INF] End processing HTTP request after 1859.0726ms - 200 
+2026-11-12 13:58:14.386 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 1878ms User=long243 TraceId=0HNQ0H7QJ2TKL:00000010 
+2026-11-12 13:58:45.666 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:58:45.666 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:58:47.612 +07:00 [INF] Received HTTP response headers after 1945.7247ms - 200 
+2026-11-12 13:58:47.613 +07:00 [INF] End processing HTTP request after 1946.9579ms - 200 
+2026-11-12 13:58:47.622 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 1958ms User=long243 TraceId=0HNQ0H7QJ2TKL:00000011 
+2026-11-12 13:58:54.877 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 22ms User=long243 TraceId=0HNQ0H7QJ2TKL:00000012 
+2026-11-12 13:59:06.792 +07:00 [INF] Start processing HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:59:06.792 +07:00 [INF] Sending HTTP request POST https://api.mistral.ai/v1/chat/completions 
+2026-11-12 13:59:07.713 +07:00 [INF] Received HTTP response headers after 920.1353ms - 200 
+2026-11-12 13:59:07.713 +07:00 [INF] End processing HTTP request after 921.4099ms - 200 
+2026-11-12 13:59:07.715 +07:00 [INF] HTTP POST /api/chatbot/message => 200 in 925ms User=long243 TraceId=0HNQ0H7QJ2TKL:00000013 
+2026-11-12 13:59:13.821 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 31ms User=long243 TraceId=0HNQ0H7QJ2TKL:00000014 
+2026-11-12 13:59:15.504 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 18ms User=long243 TraceId=0HNQ0H7QJ2TKL:00000015 
+2026-11-12 13:59:38.039 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 20ms User=long243 TraceId=0HNQ0H7QJ2TKL:00000016 
+2026-11-12 13:59:46.805 +07:00 [INF] HTTP GET /api/otc-medicines => 200 in 10ms User=long243 TraceId=0HNQ0H7QJ2TKL:00000017 

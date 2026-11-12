@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: clinic-sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=YourStrong@Password123
+    ports:
+      - "14334:1433"
+    volumes:
+      - clinic-sql-data:/var/opt/mssql
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: clinic-web
+    depends_on:
+      - sqlserver
+    ports:
+      - "5078:5078"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:5078
+      - ConnectionStrings__DefaultConnection=Server=sqlserver,1433;Database=StudentManagementDb;User Id=sa;Password=YourStrong@Password123;TrustServerCertificate=True;
+      - JwtSettings__SecretKey=YourSecretKeyMustBeVeryLongAndSecure123456789!
+
+volumes:
+  clinic-sql-data:
