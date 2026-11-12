@@ -1,5 +1,5 @@
-# Runtime stage sieu nhe (khong can tai .NET SDK 2.5GB)
-FROM mcr.microsoft.com/dotnet/aspnet:10.0-preview AS runtime
+# Chuan ban chinh thuc .NET 10.0 (khop 100% voi StudentManagement.dll)
+FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
 WORKDIR /app
 
 # Copy ban da publish san
