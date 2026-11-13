@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: medika-clinic
+    runtime: docker
+    plan: free
+    region: singapore
+    branch: clinic
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: 5078
+      - key: ASPNETCORE_URLS
+        value: http://+:5078
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+      - key: JwtSettings__SecretKey
+        generateValue: true
+      - key: JwtSettings__Issuer
+        value: MedikaClinic
+      - key: JwtSettings__Audience
+        value: MedikaClinic
+      - key: JwtSettings__ExpiryMinutes
+        value: 60
+      - key: ConnectionStrings__DefaultConnection
+        sync: false
